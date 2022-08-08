@@ -1,15 +1,11 @@
 {
-  "name": "HTMLGuide",
+  "name": "html-guide",
   "version": "1.0.0",
-  "description": "An Html guide for personal summary",
+  "description": "An HTML guide for personal summary",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "vuepress": "^1.9.7"
-  },
   "scripts": {
-    "dev": "vuepress dev",
-    "test": "test HTMLGuide"
+    "dev":"vuepress dev",
+    "test": "vuepress test"
   },
   "repository": {
     "type": "git",
@@ -19,12 +15,16 @@
     "html5",
     "html",
     "guide",
-    "summary"
+    "summary",
+    "document"
   ],
   "author": "JunLiangWang",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JunLiangWangX/HTML-Guide/issues"
   },
-  "homepage": "https://github.com/JunLiangWangX/HTML-Guide#readme"
+  "homepage": "https://github.com/JunLiangWangX/HTML-Guide#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
 }
