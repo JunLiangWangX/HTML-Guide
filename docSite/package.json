@@ -4,8 +4,9 @@
   "description": "An HTML guide for personal summary",
   "main": "index.js",
   "scripts": {
-    "dev":"vuepress dev",
-    "test": "vuepress test"
+    "dev": "vuepress dev",
+    "test": "vuepress test",
+    "build": "vuepress build"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,12 @@
   },
   "homepage": "https://github.com/JunLiangWangX/HTML-Guide#readme",
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-baidu-autopush": "^1.0.1"
+  },
+  "dependencies": {
+    "vuepress-plugin-img-lazy": "^1.0.4"
   }
 }
