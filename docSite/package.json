@@ -32,6 +32,8 @@
     "vuepress-plugin-baidu-autopush": "^1.0.1"
   },
   "dependencies": {
-    "vuepress-plugin-img-lazy": "^1.0.4"
+    "vuepress-plugin-gotop-plus": "^1.0.4",
+    "vuepress-plugin-img-lazy": "^1.0.4",
+    "vuepress-plugin-last-reading": "^1.0.0"
   }
 }
