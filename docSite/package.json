@@ -29,9 +29,13 @@
     "@vuepress/plugin-active-header-links": "^1.9.7",
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "vuepress": "^1.9.7",
-    "vuepress-plugin-baidu-autopush": "^1.0.1"
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-seo": "^0.2.0",
+    "vuepress-plugin-social-share": "^1.2.1"
   },
   "dependencies": {
+    "@vssue/api-github-v4": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "vuepress-plugin-gotop-plus": "^1.0.4",
     "vuepress-plugin-img-lazy": "^1.0.4",
     "vuepress-plugin-last-reading": "^1.0.0"

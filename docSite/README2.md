@@ -36,3 +36,5 @@ console.info('test')
 ##### 测试5
 
 ###### 测试6
+
+<Vssue :title="$title" />

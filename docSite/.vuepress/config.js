@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-09 10:25:29
+ * @LastEditTime: 2022-08-09 15:08:25
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -17,6 +17,8 @@ module.exports = {
         }]
     ],
     extraWatchFiles: ['**/*.md', '*.md', '**/*.vue', '*.vue'],
+    // 永久链接
+    permalink: "/:year/:month/:day/:slug",
     // 主题配置 https://www.vuepress.cn/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5
     themeConfig: {
         logo: '/logo.png',
@@ -33,7 +35,7 @@ module.exports = {
         search: true,
         searchMaxSuggestions: 10,
         lastUpdated: 'Last Updated', // string | boolean
-
+        author: '汪军梁',
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
         repo: 'https://github.com/JunLiangWangX/HTML-Guide',
         // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
@@ -61,14 +63,55 @@ module.exports = {
     // 插件市场 https://github.com/vuepress/awesome-vuepress/blob/main/v1.md#community-themes
     plugins: [
         ['@vuepress/plugin-back-to-top', false],
-        [
-            'vuepress-plugin-gotop-plus'
-        ], 'vuepress-plugin-baidu-autopush', 'img-lazy',
         ['last-reading', {
             popupConfig: {
                 message: '返回之前位置',
                 buttonText: '确定'
             },
+        }],
+        ['vuepress-plugin-gotop-plus'],
+        ['vuepress-plugin-baidu-autopush'],
+        ['img-lazy'],
+        // seo 地址：https://github.com/lorisleiva/vuepress-plugin-seo
+        ['seo'],
+        // 分享插件地址：https://sns.goyfe.com/guide/#install
+        [`social-share`, {
+            networks: [
+                `wechat`,
+                `qq`,
+                `douban`,
+                `weibo`,
+                `email`,
+                `twitter`,
+                `facebook`,
+                `reddit`,
+                `telegram`,
+                `line`,
+                `skype`,
+                `telegram`,
+            ],
+            email: `1428637884@gmail.com`,
+            twitterUser: `JunLiangWang`,
+            fallbackImage: `/logo.png`,
+            autoQuote: true,
+            qrcodeOptions: {
+                width: 240,
+            },
+            extendsNetworks: {
+                qq: {
+                    icon: `/QQ.png`,
+                }
+            }
+        }],
+        // 评论插件地址：https://vssue.js.org/zh/guide/
+        ['@vssue/vuepress-plugin-vssue', {
+            // 设置 `platform` 而不是 `api`
+            platform: 'github-v4',
+            // 其他的 Vssue 配置
+            owner: 'JunLiangWangX',
+            repo: 'https://github.com/JunLiangWangX/HTML-Guide',
+            clientId: 'aaa464cfcc37b6c87225',
+            clientSecret: '7e63c9fdb839e430770665e358ee10663fcdd802',
         }]
     ]
 }
