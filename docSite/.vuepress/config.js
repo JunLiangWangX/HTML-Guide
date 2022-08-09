@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-10 00:44:01
+ * @LastEditTime: 2022-08-10 00:52:01
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -106,7 +106,11 @@ module.exports = {
         ['vuepress-plugin-gotop-plus'],
         ['vuepress-plugin-baidu-autopush'],
         ['img-lazy'],
-        ['@vuepress/last-updated'],
+        ['@vuepress/last-updated', {
+            dateOptions:{
+              hour12: false
+            }
+          }],
         // 支持PWA地址：https://vuepress.vuejs.org/zh/plugin/official/plugin-pwa.html#%E5%AE%89%E8%A3%85
         ['@vuepress/pwa', {
             serviceWorker: true,
