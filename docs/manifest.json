@@ -2,8 +2,8 @@
     "name": "HTML指南",
     "short_name": "HTML指南",
     "description":"个人总结的一份HTML指南",
-    "start_url": "/HTML-Guide",
-    "scope": "/HTML-Guide",
+    "start_url": "/HTML-Guide/",
+    "scope": "/HTML-Guide/",
     "icons": [
         {
             "src": "/logox16.png",
