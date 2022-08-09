@@ -3,18 +3,68 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-09 18:08:40
+ * @LastEditTime: 2022-08-09 18:29:25
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
     base: '/HTML-Guide/',
     title: 'HTML指南',
     description: '个人总结的一份HTML指南',
-    dest:'../docs',
+    dest: '../docs',
     head: [
         ['link', {
-            rel: 'icon',
-            href: '/iconx32.png'
+            rel: "icon",
+            type: "image/png",
+            sizes: "16x16",
+            href: "/iconx16.png"
+        }],
+        ['link', {
+            rel: "icon",
+            type: "image/png",
+            sizes: "32x32",
+            href: "/iconx32.png"
+        }],
+        ['link', {
+            rel: "icon",
+            type: "image/png",
+            sizes: "48x48",
+            href: "/iconx48.png"
+        }],
+        ['link', {
+            rel: "icon",
+            type: "image/png",
+            sizes: "72x72",
+            href: "/iconx72.png"
+        }],
+        ['link', {
+            rel: "icon",
+            type: "image/png",
+            sizes: "96x96",
+            href: "/iconx96.png"
+        }],
+        ['link', {
+            rel: "icon",
+            type: "image/png",
+            sizes: "144x144",
+            href: "/iconx144.png"
+        }],
+        ['link', {
+            rel: "icon",
+            type: "image/png",
+            sizes: "152x152",
+            href: "/iconx152.png"
+        }],
+        ['link', {
+            rel: "icon",
+            type: "image/png",
+            sizes: "168x168",
+            href: "/iconx168.png"
+        }],
+        ['link', {
+            rel: "icon",
+            type: "image/png",
+            sizes: "192x192",
+            href: "/iconx192.png"
         }],
         ['link', {
             rel: 'manifest',
@@ -38,7 +88,7 @@ module.exports = {
         }],
         ['link', {
             rel: 'mask-icon',
-            href: '/logo.svg',   
+            href: '/logo.svg',
             color: '#3eaf7c'
         }],
         ['meta', {
