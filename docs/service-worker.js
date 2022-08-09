@@ -27,23 +27,23 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "1970/01/01/_404/index.html",
-    "revision": "c79871dac317c5dbcb39b2e714f76418"
+    "revision": "011767a9c9907dba33fc693210b570f5"
   },
   {
     "url": "1970/01/01/docsite/index.html",
-    "revision": "f263ec293c02775e1ae89e8f2a12eb03"
+    "revision": "f94e5c4bbcef4535e2a70e9afc75ebe2"
   },
   {
     "url": "1970/01/01/readme1/index.html",
-    "revision": "d9a1be737e2393c304603cda1e07a74b"
+    "revision": "8d73172b4bc59b9317c840d0b62561ce"
   },
   {
     "url": "1970/01/01/readme2/index.html",
-    "revision": "110f03f3c90ad2558cc6fb9c9f99ff61"
+    "revision": "c41b59777da6bfdbd595efc500f5039b"
   },
   {
-    "url": "assets/css/0.styles.c0372d04.css",
-    "revision": "19b068974654d0c690b3d11dd9cca51b"
+    "url": "assets/css/0.styles.69bfb77b.css",
+    "revision": "a70b0f5738d21adc86443bc36bc3a57d"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -70,28 +70,28 @@ self.__precacheManifest = [
     "revision": "8bdeb290b79a59eab331fb946078de96"
   },
   {
-    "url": "assets/js/5.3303caa8.js",
-    "revision": "ad95eafe982e3c24adccccc357a0409a"
+    "url": "assets/js/5.f340a9f0.js",
+    "revision": "55f503f31dd5bd8e111067ef55ea45d9"
   },
   {
-    "url": "assets/js/6.454c123d.js",
-    "revision": "802b5b7c3b6fbb3aae84b6ff00d1426d"
+    "url": "assets/js/6.0cd252cb.js",
+    "revision": "f069a780ea7ee557a5be66d3c055d4c1"
   },
   {
     "url": "assets/js/7.db05d4b4.js",
     "revision": "a01b491f2ad961c07afc6dc99550858d"
   },
   {
-    "url": "assets/js/8.6028b21f.js",
-    "revision": "c9907f71b4a3cc05bd7fb55229a52054"
+    "url": "assets/js/8.dda3af75.js",
+    "revision": "a2910ac7223ebe95dd70906c8a1c696b"
   },
   {
-    "url": "assets/js/9.add84934.js",
-    "revision": "da35a1c72d777c9ba80b16b826578777"
+    "url": "assets/js/9.0f785ebd.js",
+    "revision": "424564d4ff06ffa04bd3e3c42981d23b"
   },
   {
-    "url": "assets/js/app.b2d710a3.js",
-    "revision": "df2257eedc82ddd9472ffc2d99ff2a62"
+    "url": "assets/js/app.1409c859.js",
+    "revision": "8ac76cf2ac23fcf2c2ce68868c25487b"
   },
   {
     "url": "logo.svg",
