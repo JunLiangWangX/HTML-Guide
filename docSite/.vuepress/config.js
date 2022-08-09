@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-09 15:08:25
+ * @LastEditTime: 2022-08-09 16:10:42
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -13,7 +13,40 @@ module.exports = {
     head: [
         ['link', {
             rel: 'icon',
-            href: '/logo.png'
+            href: '/iconx32.png'
+        }],
+        ['link', {
+            rel: 'manifest',
+            href: '/manifest.json'
+        }],
+        ['meta', {
+            name: 'theme-color',
+            content: '#3eaf7c'
+        }],
+        ['meta', {
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes'
+        }],
+        ['meta', {
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: 'black'
+        }],
+        ['link', {
+            rel: 'apple-touch-icon',
+            href: '/logox152.png'
+        }],
+        ['link', {
+            rel: 'mask-icon',
+            href: '/logo.svg',   
+            color: '#3eaf7c'
+        }],
+        ['meta', {
+            name: 'msapplication-TileImage',
+            content: '/iconx144.png'
+        }],
+        ['meta', {
+            name: 'msapplication-TileColor',
+            content: '#000000'
         }]
     ],
     extraWatchFiles: ['**/*.md', '*.md', '**/*.vue', '*.vue'],
@@ -21,7 +54,7 @@ module.exports = {
     permalink: "/:year/:month/:day/:slug",
     // 主题配置 https://www.vuepress.cn/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5
     themeConfig: {
-        logo: '/logo.png',
+        logo: '/logo.svg',
         /*nav: [{
             text: 'GitHub',
             link: 'https://github.com/JunLiangWangX/HTML-Guide',
@@ -72,6 +105,11 @@ module.exports = {
         ['vuepress-plugin-gotop-plus'],
         ['vuepress-plugin-baidu-autopush'],
         ['img-lazy'],
+        // 支持PWA地址：https://vuepress.vuejs.org/zh/plugin/official/plugin-pwa.html#%E5%AE%89%E8%A3%85
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: true
+        }],
         // seo 地址：https://github.com/lorisleiva/vuepress-plugin-seo
         ['seo'],
         // 分享插件地址：https://sns.goyfe.com/guide/#install
