@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-10 00:57:36
+ * @LastEditTime: 2022-08-10 01:07:08
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -68,7 +68,7 @@ module.exports = {
         ],
         search: true,
         searchMaxSuggestions: 10,
-        lastUpdated: '最后更新', // string | boolean
+        lastUpdated: true, // string | boolean
         author: '汪军梁',
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
         repo: 'https://github.com/JunLiangWangX/HTML-Guide',
