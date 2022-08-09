@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-09 18:56:44
+ * @LastEditTime: 2022-08-09 22:19:50
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -14,57 +14,7 @@ module.exports = {
     head: [
         ['link', {
             rel: "icon",
-            type: "image/png",
-            sizes: "16x16",
             href: "/logox16.png"
-        }],
-        ['link', {
-            rel: "icon",
-            type: "image/png",
-            sizes: "32x32",
-            href: "/logox32.png"
-        }],
-        ['link', {
-            rel: "icon",
-            type: "image/png",
-            sizes: "48x48",
-            href: "/logox48.png"
-        }],
-        ['link', {
-            rel: "icon",
-            type: "image/png",
-            sizes: "72x72",
-            href: "/logox72.png"
-        }],
-        ['link', {
-            rel: "icon",
-            type: "image/png",
-            sizes: "96x96",
-            href: "/logox96.png"
-        }],
-        ['link', {
-            rel: "icon",
-            type: "image/png",
-            sizes: "144x144",
-            href: "/logox144.png"
-        }],
-        ['link', {
-            rel: "icon",
-            type: "image/png",
-            sizes: "152x152",
-            href: "/logox152.png"
-        }],
-        ['link', {
-            rel: "icon",
-            type: "image/png",
-            sizes: "168x168",
-            href: "/logox168.png"
-        }],
-        ['link', {
-            rel: "icon",
-            type: "image/png",
-            sizes: "192x192",
-            href: "/logox192.png"
         }],
         ['link', {
             rel: 'manifest',
@@ -188,7 +138,7 @@ module.exports = {
             },
             extendsNetworks: {
                 qq: {
-                    icon: `/QQ.png`,
+                    icon: `/HTML-Guide/QQ.png`,
                 }
             }
         }],

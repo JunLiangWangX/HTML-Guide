@@ -37,5 +37,8 @@ console.info('test')
 ##### 测试5
 
 ###### 测试6
+1.图标问题
+2.重置项目
+3.加入组件
 
 <Vssue :title="$title" />
