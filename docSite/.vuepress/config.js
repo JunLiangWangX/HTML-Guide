@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-09 17:29:54
+ * @LastEditTime: 2022-08-09 18:08:40
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -52,7 +52,7 @@ module.exports = {
     ],
     extraWatchFiles: ['**/*.md', '*.md', '**/*.vue', '*.vue'],
     // 永久链接
-    permalink: "/:year/:month/:day/:slug",
+    // permalink: "/:year/:month/:day/:slug",
     // 主题配置 https://www.vuepress.cn/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5
     themeConfig: {
         logo: '/logo.svg',
