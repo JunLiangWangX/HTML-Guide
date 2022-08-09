@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "063327e851504488be15b6750a358bbb"
+    "revision": "e95628c30a171ccf4c68d0f42c6801e5"
   },
   {
-    "url": "assets/css/0.styles.f279af35.css",
-    "revision": "61aa8b2ff1290be6576b0934293ceaab"
+    "url": "assets/css/0.styles.99ddf889.css",
+    "revision": "449dbbb1f5ca0cbed592d2668b9d9968"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -54,16 +54,16 @@ self.__precacheManifest = [
     "revision": "276e8b6ffbbed11b7df499ded561254b"
   },
   {
-    "url": "assets/js/4.9ef97cf5.js",
-    "revision": "7cd0d5020d8734fc4f8f18c4392cb8b9"
+    "url": "assets/js/4.df3683d8.js",
+    "revision": "737e67ca609e75119a5152853e6cc26c"
   },
   {
     "url": "assets/js/5.d36c4cd0.js",
     "revision": "17c4d5405a9c765d520eee69c6d32449"
   },
   {
-    "url": "assets/js/6.454c123d.js",
-    "revision": "802b5b7c3b6fbb3aae84b6ff00d1426d"
+    "url": "assets/js/6.16311812.js",
+    "revision": "cd91894089fbe2375d16821c070ee426"
   },
   {
     "url": "assets/js/7.db05d4b4.js",
@@ -78,12 +78,12 @@ self.__precacheManifest = [
     "revision": "f997ea466176d8ffad6b490fef4fb099"
   },
   {
-    "url": "assets/js/app.2b3dcd76.js",
-    "revision": "d51d6c22ed2f9aeca5b094409d3aed38"
+    "url": "assets/js/app.06cc2cf8.js",
+    "revision": "99650d98c71e1a2f7e8b8039b0485309"
   },
   {
     "url": "index.html",
-    "revision": "67ad5b50154a7a4b32e92a0e39d2aea1"
+    "revision": "d3ddc936f5bf75a4a85fdaf32c7d5c65"
   },
   {
     "url": "logo.svg",
@@ -131,11 +131,11 @@ self.__precacheManifest = [
   },
   {
     "url": "README1.html",
-    "revision": "2482894c07694704f580eb0f0244a39b"
+    "revision": "e4901879aac9f8970a581cdd27f70435"
   },
   {
     "url": "README2.html",
-    "revision": "aac978ac7ae40516229c0972ea6459b6"
+    "revision": "1f82613fc797a85fa887fbab9d4e848c"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

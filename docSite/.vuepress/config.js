@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-09 18:29:25
+ * @LastEditTime: 2022-08-09 18:56:44
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -16,55 +16,55 @@ module.exports = {
             rel: "icon",
             type: "image/png",
             sizes: "16x16",
-            href: "/iconx16.png"
+            href: "/logox16.png"
         }],
         ['link', {
             rel: "icon",
             type: "image/png",
             sizes: "32x32",
-            href: "/iconx32.png"
+            href: "/logox32.png"
         }],
         ['link', {
             rel: "icon",
             type: "image/png",
             sizes: "48x48",
-            href: "/iconx48.png"
+            href: "/logox48.png"
         }],
         ['link', {
             rel: "icon",
             type: "image/png",
             sizes: "72x72",
-            href: "/iconx72.png"
+            href: "/logox72.png"
         }],
         ['link', {
             rel: "icon",
             type: "image/png",
             sizes: "96x96",
-            href: "/iconx96.png"
+            href: "/logox96.png"
         }],
         ['link', {
             rel: "icon",
             type: "image/png",
             sizes: "144x144",
-            href: "/iconx144.png"
+            href: "/logox144.png"
         }],
         ['link', {
             rel: "icon",
             type: "image/png",
             sizes: "152x152",
-            href: "/iconx152.png"
+            href: "/logox152.png"
         }],
         ['link', {
             rel: "icon",
             type: "image/png",
             sizes: "168x168",
-            href: "/iconx168.png"
+            href: "/logox168.png"
         }],
         ['link', {
             rel: "icon",
             type: "image/png",
             sizes: "192x192",
-            href: "/iconx192.png"
+            href: "/logox192.png"
         }],
         ['link', {
             rel: 'manifest',
