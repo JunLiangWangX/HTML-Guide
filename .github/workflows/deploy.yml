@@ -4,6 +4,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+    
+    - name: cd taget
+      run: cd docSite
+        
     - name: Checkout
       uses: actions/checkout@master
     
