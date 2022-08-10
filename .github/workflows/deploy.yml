@@ -4,9 +4,8 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/cache@v3.0.6
-      with:
-          fetch-depth: 0
+    - name: Checkout
+      uses: actions/checkout@master
     
     - name: Vuepress deploy
       uses: jenkey2011/vuepress-deploy@v1.8.1
