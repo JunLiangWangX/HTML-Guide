@@ -13,5 +13,6 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: JunLiangWangX/HTML-Guide
         TARGET_BRANCH: docSite
-        BUILD_SCRIPT: npm run build
+        BUILD_SCRIPT: cd docSite
+                      npm run build
         BUILD_DIR: docSite/.vuepress/dist
