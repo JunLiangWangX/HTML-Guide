@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-10 01:07:08
+ * @LastEditTime: 2022-08-10 09:59:34
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -19,10 +19,6 @@ module.exports = {
         ['link', {
             rel: 'manifest',
             href: '/manifest.json'
-        }],
-        ['meta', {
-            name: 'theme-color',
-            content: '#3eaf7c'
         }],
         ['meta', {
             name: 'apple-mobile-web-app-capable',
