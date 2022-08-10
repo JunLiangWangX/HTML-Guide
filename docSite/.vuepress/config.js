@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-10 10:15:07
+ * @LastEditTime: 2022-08-10 10:33:33
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -147,9 +147,10 @@ module.exports = {
             platform: 'github-v4',
             // 其他的 Vssue 配置
             owner: 'JunLiangWangX',
-            repo: 'https://github.com/JunLiangWangX/HTML-Guide',
+            repo: 'HTML-Guide',
             clientId: 'aaa464cfcc37b6c87225',
             clientSecret: 'b62934f0953c056d0d7e075098b38f1f86c0afe6',
+            locale:"zh"
         }]
     ]
 }
