@@ -3,18 +3,17 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-10 10:33:33
+ * @LastEditTime: 2022-08-10 15:11:24
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
     base: '/HTML-Guide/',
     title: 'HTML指南',
     description: '个人总结的一份HTML指南',
-    dest: '../docs',
     head: [
         ['link', {
             rel: "icon",
-            href: "/logox16.png"
+            href: "/logox48.png"
         }],
         ['link', {
             rel: 'manifest',
@@ -52,11 +51,10 @@ module.exports = {
     // 主题配置 https://www.vuepress.cn/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5
     themeConfig: {
         logo: '/logo.svg',
-        /*nav: [{
-            text: 'GitHub',
-            link: 'https://github.com/JunLiangWangX/HTML-Guide',
-            target: '_blank'
-        }],*/
+        nav: [{
+            text: '📝 评论',
+            link: '/comment'
+        }],
         sidebar: [
             '/',
             '/README1',

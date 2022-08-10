@@ -4,9 +4,9 @@
   "description": "An HTML guide for personal summary",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev",
-    "test": "vuepress test",
-    "build": "vuepress build"
+    "dev": "vuepress dev ",
+    "test": "vuepress test ",
+    "build": "vuepress build "
   },
   "repository": {
     "type": "git",

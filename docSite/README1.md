@@ -40,5 +40,3 @@ console.info('test')
 1.图标问题11112222
 2.重置项目
 3.加入组件
-
-<Vssue :title="$title" />
