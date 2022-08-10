@@ -4,10 +4,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    
-    - name: cd taget
-      run: cd docSite
-        
     - name: Checkout
       uses: actions/checkout@master
     
@@ -17,6 +13,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: JunLiangWangX/HTML-Guide
         TARGET_BRANCH: docSite
-        BUILD_SCRIPT: cd docSite
-                      npm run build
+        BUILD_SCRIPT: npm install && npm run build
         BUILD_DIR: docSite/.vuepress/dist
