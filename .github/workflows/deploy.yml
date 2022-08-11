@@ -12,6 +12,6 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: JunLiangWangX/HTML-Guide
-        TARGET_BRANCH: docSite
+        TARGET_BRANCH: deploy
         BUILD_SCRIPT: npm install && npm run build
-        BUILD_DIR: docSite/.vuepress/dist
+        BUILD_DIR: docs/.vuepress/dist
