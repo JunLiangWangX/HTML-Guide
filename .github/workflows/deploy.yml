@@ -26,8 +26,7 @@ jobs:
       
     - name: Up merge
       uses: bambamboole/gha-upmerge@v1.0.1
-      with:
+      env:
         from_branch: main
         to_branch: deployServer
-      env:
-         GITHUB_TOKEN: ${{ secrets.SECRET }}
+        push_token: ${{ secrets.SECRET }}
