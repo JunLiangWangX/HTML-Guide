@@ -29,4 +29,5 @@ jobs:
       with:
         from_branch: main
         to_branch: deployServer
-        push_token: ${{ secrets.SECRET }}
+      env:
+         GITHUB_TOKEN: ${{ secrets.SECRET }}
