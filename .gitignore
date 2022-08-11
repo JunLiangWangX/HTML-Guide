@@ -3,3 +3,4 @@ docSite_p
 package-lock.json
 .DS_Store
 .github
+config.js
