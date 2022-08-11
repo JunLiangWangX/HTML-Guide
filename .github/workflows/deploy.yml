@@ -10,7 +10,7 @@ jobs:
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.SECRET }}
         TARGET_REPO: JunLiangWangX/HTML-Guide
         TARGET_BRANCH: deploy
         BUILD_SCRIPT: npm install && npm run build
