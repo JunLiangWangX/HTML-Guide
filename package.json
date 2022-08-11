@@ -4,20 +4,19 @@
   "description": "An HTML guide for personal summary",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev ",
-    "test": "vuepress test ",
-    "build": "vuepress build "
+    "test": "vuepress test docs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JunLiangWangX/HTML-Guide.git"
   },
   "keywords": [
-    "html5",
-    "html",
-    "guide",
+    "hmlt",
+    "h5",
     "summary",
-    "document"
+    "guide"
   ],
   "author": "JunLiangWang",
   "license": "MIT",
@@ -26,9 +25,6 @@
   },
   "homepage": "https://github.com/JunLiangWangX/HTML-Guide#readme",
   "devDependencies": {
-    "@vuepress/plugin-active-header-links": "^1.9.7",
-    "@vuepress/plugin-back-to-top": "^1.9.7",
-    "@vuepress/plugin-pwa": "^1.9.7",
     "vuepress": "^1.9.7",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-seo": "^0.2.0",
