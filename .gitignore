@@ -1,6 +1,5 @@
 node_modules
-docSite_p
+/docs/.vuepress/config.js
 package-lock.json
 .DS_Store
 .github
-docs/.vuepress/config.js
