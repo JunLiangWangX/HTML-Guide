@@ -27,6 +27,6 @@ jobs:
     - name: Up merge
       uses: bambamboole/gha-upmerge@v1.0.1
       with:
-        from_branch: master
-        to_branch: develop
+        from_branch: main
+        to_branch: deployServer
         push_token: ${{ secrets.SECRET }}
