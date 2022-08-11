@@ -1,0 +1,52 @@
+{
+    "name": "HTML指南",
+    "short_name": "HTML指南",
+    "description":"个人总结的一份HTML指南",
+    "start_url": "/HTML-Guide/",
+    "scope": "/HTML-Guide/",
+    "icons": [
+        {
+            "src": "logox16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "logox32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "logox48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "logox72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "logox96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "logox144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "logox168.png",
+            "sizes": "168x168",
+            "type": "image/png"
+        },
+        {
+            "src": "logox192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "display": "standalone",
+    "theme_color": "#fff",
+    "background_color": "#3eaf7c"
+}
