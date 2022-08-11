@@ -3,14 +3,12 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-11 09:46:16
+ * @LastEditTime: 2022-08-11 10:31:38
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
     base: '/HTML-Guide/',
     title: 'HTML指南',
-    dest:'../docSite',
-    // dest:'../docSite',
     description: '个人总结的一份HTML指南',
     head: [
         ['link', {
