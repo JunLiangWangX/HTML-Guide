@@ -6,7 +6,7 @@
   "scripts": {
     "test": "vuepress test docs",
     "dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
