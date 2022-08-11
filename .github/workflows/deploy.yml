@@ -29,5 +29,7 @@ jobs:
       with:
         from_branch: main
         to_branch: deployServer
+        user_name: JunLiangWangX
+        user_email: 1428637884@qq.com
       env:
         GITHUB_TOKEN: ${{ secrets.SECRET }}
