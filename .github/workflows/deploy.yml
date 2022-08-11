@@ -15,21 +15,3 @@ jobs:
         TARGET_BRANCH: deploy
         BUILD_SCRIPT: npm install && npm run build
         BUILD_DIR: docs/.vuepress/dist
-        
-        
-        
-  push-deploy-server:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@master
-      
-    - name: Up merge
-      uses: bambamboole/gha-upmerge@v1.0.1
-      with:
-        from_branch: main
-        to_branch: deployServer
-        user_name: JunLiangWangX
-        user_email: 1428637884@qq.com
-      env:
-        GITHUB_TOKEN: ${{ secrets.SECRET }}
