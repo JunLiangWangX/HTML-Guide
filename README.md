@@ -7,9 +7,11 @@
 
 
 
-## Related  repository
+## Contributing
 
-<img src="./resource/repository.svg" style="width: 80%;float:left;">
+Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
+
+<img src="./resource/repository.svg">
 
 
 
