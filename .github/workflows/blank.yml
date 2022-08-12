@@ -1,0 +1,16 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Contributors and sponsors
+       uses: lowlighter/metrics@latest
+       with:
+         filename: metrics.plugin.people.repository.svg
+         token: ${{ secrets.SECRETS }}
+         base: ""
+         template: repository
+         repo: HTML-Guide
+         plugin_people: yes
+         plugin_people_types: contributors, stargazers, watchers, sponsors
