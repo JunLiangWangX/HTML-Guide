@@ -19,9 +19,9 @@ jobs:
        uses: lowlighter/metrics@latest
        with:
          filename: detailed.svg
-         token: NOT_NEEDED
+         token: ${{ secrets.SECRET }}
          base: ""
          plugin_pagespeed: yes
          plugin_pagespeed_detailed: yes
-         plugin_pagespeed_token: ${{ secrets.SECRET }}
+         plugin_pagespeed_token: ${{ secrets.PAGESPEED }}
          plugin_pagespeed_url: https://junliangwangx.github.io/HTML-Guide/
