@@ -1,0 +1,27 @@
+name: Generate readme file
+on: [push]
+jobs:
+  generate-readme-file:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Contributors and sponsors
+       uses: lowlighter/metrics@latest
+       with:
+         filename: repository.svg
+         token: ${{ secrets.SECRET }}
+         base: ""
+         template: repository
+         repo: HTML-Guide
+         plugin_people: yes
+         plugin_people_types: contributors, stargazers, watchers, sponsors
+
+     - name: Detailed report
+       uses: lowlighter/metrics@latest
+       with:
+         filename: detailed.svg
+         token: NOT_NEEDED
+         base: ""
+         plugin_pagespeed: yes
+         plugin_pagespeed_detailed: yes
+         plugin_pagespeed_token: ${{ secrets.SECRET }}
+         plugin_pagespeed_url: https://junliangwangx.github.io/HTML-Guide/
