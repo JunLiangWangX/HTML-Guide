@@ -25,3 +25,13 @@ jobs:
          plugin_pagespeed_detailed: yes
          plugin_pagespeed_token: ${{ secrets.PAGESPEED }}
          plugin_pagespeed_url: https://junliangwangx.github.io/HTML-Guide/
+         
+     - name: Comment reactions
+       uses: lowlighter/metrics@latest
+       with:
+         filename: metrics.plugin.reactions.svg
+         token: ${{ secrets.SECRET }}
+         base: ""
+         plugin_reactions: yes
+         plugin_reactions_limit: 100
+         plugin_reactions_details: percentage
