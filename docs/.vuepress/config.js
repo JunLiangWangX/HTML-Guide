@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-11 17:11:55
+ * @LastEditTime: 2022-08-12 10:52:15
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -90,7 +90,6 @@ module.exports = {
     // 插件配置 https://www.vuepress.cn/plugin/
     // 插件市场 https://github.com/vuepress/awesome-vuepress/blob/main/v1.md#community-themes
     plugins: [
-        ['@vuepress/plugin-back-to-top', false],
         ['last-reading', {
             popupConfig: {
                 message: '返回之前位置',
