@@ -8,7 +8,7 @@ jobs:
        uses: lowlighter/metrics@latest
        with:
          filename: metrics.plugin.people.repository.svg
-         token: ${{ secrets.SECRETS }}
+         token: ${{ secrets.SECRET }}
          base: ""
          template: repository
          repo: HTML-Guide
