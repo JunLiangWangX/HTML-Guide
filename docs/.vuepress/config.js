@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-12 10:52:15
+ * @LastEditTime: 2022-08-12 11:06:13
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -43,6 +43,14 @@ module.exports = {
         ['meta', {
             name: 'msapplication-TileColor',
             content: '#00000000'
+        }],
+        ['meta', {
+            name: 'theme-color',
+            content: '#fff'
+        }],
+        ['meta',{
+            name:'viewport',
+            content:'width=device-width, initial-scale=1'
         }]
     ],
     extraWatchFiles: ['**/*.md', '*.md', '**/*.vue', '*.vue'],
