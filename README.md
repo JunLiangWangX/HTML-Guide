@@ -1,6 +1,12 @@
-## 📑 Google PageSpeed
 
-<img src="./resource/detailed.svg" style="max-width: 100%;" width="800px">
+
+<img src='./resource/logo.svg' style="float: left;">
+
+
+
+<img src='https://pagespeed-insights.herokuapp.com/?url=https://JunLiangWangX.github.io/HTML-Guide/'>
+
+
 
 
 
@@ -10,7 +16,7 @@
 
 
 
-## 🧑‍💻Contributing
+## 🧑‍💻 Contributing
 
 Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
 
@@ -18,7 +24,7 @@ Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-re
 
 
 
-## ⚖️License
+## ⚖️ License
 
-Distributed under the `MIT` License. See [LICENSE.txt](./LICENSE) for more information.
+Distributed under the `MIT` License. See [LICENSE](./LICENSE) for more information.
 
