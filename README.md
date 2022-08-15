@@ -26,9 +26,6 @@
   <a href="https://github.com/JunLiangWangX/HTML-Guide/pulls?q=is%3Aclosed">
     <img src="https://badgen.net/github/closed-prs/JunLiangWangX/HTML-Guide">
   </a>
-  <a href="https://github.com/JunLiangWangX/HTML-Guide">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
-  </a>
 </p>
 
 <p align="center">
