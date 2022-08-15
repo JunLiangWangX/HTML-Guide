@@ -1,6 +1,6 @@
 
 
-<div style="display: flex; align-items: center; flex-direction: row; flex-wrap: wrap;justify-content: space-between;">
+<div display='flex' align-items='center' flex-direction='row' flex-wrap='wrap' justify-content='space-between'>
 	<img src="./resource/logo.svg">
 	<div >
 		<div>
