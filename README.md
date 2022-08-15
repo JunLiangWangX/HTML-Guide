@@ -5,25 +5,25 @@
 ## 
 
 <p align="center">
-  <a href="https://github.com/JunLiangWangX/HTML-Guide">
+  <a href="https://github.com/JunLiangWangX/HTML-Guide" target="_blank">
     <img src="https://img.shields.io/github/stars/JunLiangWangX/HTML-Guide?style=social&label=Star&maxAge=2592000">
   </a>
-  <a href="https://github.com/JunLiangWangX/HTML-Guide/graphs/commit-activity">
+  <a href="https://github.com/JunLiangWangX/HTML-Guide/graphs/commit-activity"  target="_blank">
     <img src="https://img.shields.io/github/commit-activity/m/JunLiangWangX/HTML-Guide">
   </a>
-  <a href="https://github.com/JunLiangWangX/HTML-Guide/commit">
+  <a href="https://github.com/JunLiangWangX/HTML-Guide/commit"  target="_blank">
     <img src="https://img.shields.io/github/last-commit/JunLiangWangX/HTML-Guide">
   </a>
-  <a href="https://github.com/JunLiangWangX/HTML-Guide/issues?q=is%3Aopen">
+  <a href="https://github.com/JunLiangWangX/HTML-Guide/issues?q=is%3Aopen"  target="_blank">
     <img src="https://img.shields.io/github/issues/JunLiangWangX/HTML-Guide">
   </a>
-  <a href="https://github.com/JunLiangWangX/HTML-Guide/blob/main/issues?q=is%3Aclosed">
+  <a href="https://github.com/JunLiangWangX/HTML-Guide/blob/main/issues?q=is%3Aclosed"  target="_blank">
     <img src="https://img.shields.io/github/issues-closed-raw/JunLiangWangX/HTML-Guide">
   </a>
-  <a href="https://GitHub.com/JunLiangWangX/HTML-Guide/pull/">
+  <a href="https://GitHub.com/JunLiangWangX/HTML-Guide/pull/"  target="_blank">
     <img src="https://img.shields.io/github/issues-pr/JunLiangWangX/HTML-Guide">
   </a>
-  <a href="https://github.com/JunLiangWangX/HTML-Guide/pulls?q=is%3Aclosed">
+  <a href="https://github.com/JunLiangWangX/HTML-Guide/pulls?q=is%3Aclosed"  target="_blank">
     <img src="https://badgen.net/github/closed-prs/JunLiangWangX/HTML-Guide">
   </a>
 </p>
