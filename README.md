@@ -27,7 +27,17 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </div>
 
-
+<div >
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div>12312312312</div>
+</body>
+</html></div>
 
 <img src='https://pagespeed-insights.herokuapp.com/?url=https://JunLiangWangX.github.io/HTML-Guide/'>
 
