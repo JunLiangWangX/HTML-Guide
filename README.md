@@ -1,6 +1,29 @@
 
 
-<img src='./resource/logo.svg' float='left'>
+<div><div style="display: flex; align-items: center; flex-direction: row; flex-wrap: wrap;justify-content: space-between;">
+	<img src="./resource/logo.svg">
+	<div >
+		<div>
+			<span>语言：</span>
+			<a>中文</a>
+			<a style="margin-left: 10px;">English</a>
+		</div>
+		<div style="background: #fc490b; height: 40px; width: 164px; border-radius: 5px;display: flex;color: white;
+		            align-items: center;font-size: 15px; font-weight: bold; margin-top: 10px;padding: 10px;box-sizing: border-box;
+                    margin-bottom: 10px; cursor: pointer; flex-direction: row;flex-wrap: nowrap;">
+			<img src="./resource/chinese.svg" style="height: 100%;">
+			<span style="margin-left: 25px;margin-right: 10px;">中国站点 </span>
+			<img src="./resource/jiantou.svg" style="height: 12px;">
+		</div>
+		<div style="background: #fc490b; height: 40px; width: 164px; border-radius: 5px;display: flex;color: white;
+		            align-items: center;font-size: 15px; font-weight: bold; margin-top: 10px;padding: 10px;box-sizing: border-box;
+                    margin-bottom: 10px; cursor: pointer; flex-direction: row;flex-wrap: nowrap;">
+			<img src="./resource/chinese.svg" style="height: 100%;">
+			<span style="margin-left: 25px;margin-right: 10px;">中国站点 </span>
+			<img src="./resource/jiantou.svg" style="height: 12px;">
+		</div>
+	</div>
+</div></div>
 
 
 
