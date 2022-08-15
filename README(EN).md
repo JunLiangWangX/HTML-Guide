@@ -1,6 +1,6 @@
 
 
-<p align="center"><img src='./resource/logo.svg'></p>
+<p align="center"><img src='./resource/logo(EN).svg' ></p>
 
 ## 
 
@@ -27,12 +27,11 @@
     <img src="https://badgen.net/github/closed-prs/JunLiangWangX/HTML-Guide">
   </a>
 </p>
-
 <p align="center">
-    <a href="https://wangjunliang.com/HTML-Guide/"><img src='./resource/domestic-site-btn.svg'></a>
-    <a href="https://junliangwangx.github.io/HTML-Guide/"><img src='./resource/foreign-sites-btn.svg'></a>
+    <a href="https://wangjunliang.com/HTML-Guide/"><img src='./resource/domestic-site-btn(EN).svg'></a>
+    <a href="https://junliangwangx.github.io/HTML-Guide/"><img src='./resource/foreign-sites-btn(EN).svg'></a>
 </p>
 <p align='center'><a href='./README.md'>中文</a> &nbsp&nbsp&nbsp <a href='./README(EN).md'>English</a></p>
 
-<p align='center'><img  src='https://pagespeed-insights.herokuapp.com?url=https://junliangwangx.github.io/HTML-Guide/' width='70%'/></p>
+<p align='center'><img  src='https://pagespeed-insights.herokuapp.com?url=https://junliangwangx.github.io/HTML-Guide/' width='70%'/></p>	
 
