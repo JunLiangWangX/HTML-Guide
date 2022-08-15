@@ -1,6 +1,6 @@
 
 
-<img src='./resource/logo.svg'>
+<img src='./resource/logo.svg' align="center">
 
 
 
