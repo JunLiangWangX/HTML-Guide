@@ -1,7 +1,7 @@
 
 
 <div display='flex' align-items='center' flex-direction='row' flex-wrap='wrap' justify-content='space-between'>
-    <style></style>
+    "<style></style>"
 	<img src="./resource/logo.svg">
 	<div >
 		<div>
