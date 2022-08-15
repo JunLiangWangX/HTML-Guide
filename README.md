@@ -1,7 +1,6 @@
 
 
 <div display='flex' align-items='center' flex-direction='row' flex-wrap='wrap' justify-content='space-between'>
-    "<style></style>"
 	<img src="./resource/logo.svg">
 	<div >
 		<div>
@@ -23,7 +22,7 @@
 			<span style="margin-left: 25px;margin-right: 10px;">中国站点 </span>
 			<img src="./resource/jiantou.svg" style="height: 12px;">
 		</div>
-	</div>
+	</div><link rel="stylesheet" type="text/css" href="style.css">
 </div>
 
 
