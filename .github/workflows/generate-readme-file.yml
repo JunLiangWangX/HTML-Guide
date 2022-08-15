@@ -22,7 +22,6 @@ jobs:
          token: ${{ secrets.SECRET }}
          base: ""
          plugin_pagespeed: yes
-         plugin_pagespeed_detailed: yes
          plugin_pagespeed_pwa: yes
          plugin_pagespeed_token: ${{ secrets.PAGESPEED }}
          plugin_pagespeed_url: https://junliangwangx.github.io/HTML-Guide/
