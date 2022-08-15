@@ -22,7 +22,9 @@
 			<span style="margin-left: 25px;margin-right: 10px;">中国站点 </span>
 			<img src="./resource/jiantou.svg" style="height: 12px;">
 		</div>
-	</div><link rel="stylesheet" type="text/css" href="style.css">
+	</div>
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </div>
 
 
