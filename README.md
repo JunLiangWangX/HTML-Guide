@@ -60,7 +60,19 @@
 
 ## 🧩 项目结构
 
+
+
 ## 📫 问题与评论
+
+<img src='./resource/reactions.svg' width='100%'>
+
+#### 遇到问题怎么办？
+
+如果您在使用中遇到问题，请您先搜索[Issue](https://github.com/JunLiangWangX/HTML-Guide/issues)中是否有您的问题的答案，如果未能找到答案，请您在[Issue](https://github.com/JunLiangWangX/HTML-Guide/issues)中提交您遇到的问题，我们会及时处理。
+
+#### 怎么发表您的看法？
+
+如果您想发表自己的看法与建议，您可以前往[discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions)或者[Issue中的评论](https://github.com/JunLiangWangX/HTML-Guide/issues/3)中发表，当然您也可以直接前往[站点的评论区](https://junliangwangx.github.io/HTML-Guide/comment.html)([国内](https://wangjunliang.com/HTML-Guide/comment.html))发表
 
 
 

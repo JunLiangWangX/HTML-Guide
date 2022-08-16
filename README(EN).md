@@ -56,7 +56,19 @@
 
 ## 🧩 Project Structure
 
+
+
 ## 📫 Issues And Comment
+
+<img src='./resource/reactions.svg' width='100%'>
+
+#### What should I do if I encounter a problem?
+
+If you encounter problems during use, please search [Issue](https://github.com/JunLiangWangX/HTML-Guide/issues) to see if there is an answer to your question. If you cannot find an answer, please Submit your issues in [Issue](https://github.com/JunLiangWangX/HTML-Guide/issues) and we will deal with them in time.
+
+#### How to express your views and suggestions?
+
+If you want to post your own opinions and suggestions, you can go to [discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions) or [Comments in Issue](https://github.com/JunLiangWangX /HTML-Guide/issues/3), of course you can also go directly to the [comment of the site](https://junliangwangx.github.io/HTML-Guide/comment.html)([domestic](https: //wangjunliang.com/HTML-Guide/comment.html)) published
 
 
 
