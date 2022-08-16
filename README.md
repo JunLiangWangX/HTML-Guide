@@ -76,7 +76,9 @@
 
 <h4>海内存知己，天涯若比邻。感谢大家的贡献!!!</h4>
 
-<img src='./resource/repository.svg' width='100%'>
+<img src='./resource/repository.svg'>
+
+
 
 ## ✊ 支持
 

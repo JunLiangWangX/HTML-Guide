@@ -72,7 +72,7 @@ If you find a project bug or are interested in contributing to the project ingre
 
 <h3>The sea has confidants in memory, and the ends of the earth are like neighbors. Thanks for everyone's contributions!!!</h3>
 
-<img src='./resource/repository.svg' width='100%'>
+<img src='./resource/repository.svg'>
 
 
 
