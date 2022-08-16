@@ -62,4 +62,9 @@
 
 ## ✊ Support
 
+
+
 ## 🔑 License
+
+[MIT](./LICENSE)
+
