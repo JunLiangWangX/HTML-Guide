@@ -17,7 +17,7 @@
   <a href="https://github.com/JunLiangWangX/HTML-Guide/issues?q=is%3Aopen"  target="_blank">
     <img src="https://img.shields.io/github/issues/JunLiangWangX/HTML-Guide">
   </a>
-  <a href="https://github.com/JunLiangWangX/HTML-Guide/blob/main/issues?q=is%3Aclosed"  target="_blank">
+  <a href="https://github.com/JunLiangWangX/HTML-Guide/issues?q=is%3Aclose"  target="_blank">
     <img src="https://img.shields.io/github/issues-closed-raw/JunLiangWangX/HTML-Guide">
   </a>
   <a href="https://GitHub.com/JunLiangWangX/HTML-Guide/pull/"  target="_blank">
@@ -58,7 +58,21 @@
 
 ## 📫 Issues And Comment
 
+
+
 ## 👨‍💻 Contributing
+
+If you find a project bug or are interested in contributing to the project ingredients, please follow these rules:
+
+- Read [🧩Project Structure](#-project-structure) carefully to make sure you know enough about the project
+- If it is a project bug, please submit an [Issue](https://github.com/JunLiangWangX/HTML-Guide/issues), before submitting an issue, please search whether the relevant content has been raised
+- Please fork  to your own project first, do not create a branch directly under the warehouse.
+- Please describe the commit information accurately
+- PRs are committed to the `dev` branch, not the `master` branch
+
+<h3>The sea has confidants in memory, and the ends of the earth are like neighbors. Thanks for everyone's contributions</h3>
+
+<img src='./resource/repository.svg'>
 
 
 

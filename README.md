@@ -17,7 +17,7 @@
   <a href="https://github.com/JunLiangWangX/HTML-Guide/issues?q=is%3Aopen"  target="_blank">
     <img src="https://img.shields.io/github/issues/JunLiangWangX/HTML-Guide">
   </a>
-  <a href="https://github.com/JunLiangWangX/HTML-Guide/blob/main/issues?q=is%3Aclosed"  target="_blank">
+  <a href="https://github.com/JunLiangWangX/HTML-Guide/issues?q=is%3Aclose"  target="_blank">
     <img src="https://img.shields.io/github/issues-closed-raw/JunLiangWangX/HTML-Guide">
   </a>
   <a href="https://GitHub.com/JunLiangWangX/HTML-Guide/pull/"  target="_blank">
@@ -27,6 +27,7 @@
     <img src="https://badgen.net/github/closed-prs/JunLiangWangX/HTML-Guide">
   </a>
 </p>
+
 
 <p align="center">
     <a href="https://wangjunliang.com/HTML-Guide/"><img src='./resource/domestic-site-btn.svg'></a>
@@ -61,7 +62,21 @@
 
 ## 📫 问题与评论
 
+
+
 ## 👨‍💻 贡献
+
+如果您发现了项目bug或者有兴趣为该项目做出贡献，请您遵循一下规则：
+
+- 仔细阅读[🧩项目结构](#-项目结构)，确保您已足够了解项目
+- 如果是项目bug请提交一个[Issue](https://github.com/JunLiangWangX/HTML-Guide/issues)，在提交 issue 之前，请搜索相关内容是否已被提出
+- 请先 fork 一份到自己的项目下，不要直接在仓库下建分支。
+- commit 信息请描写准确
+- 确保 PR 是提交到 `dev` 分支，而不是 `master` 分支
+
+<h4>海内存知己，天涯若比邻。感谢大家的贡献</h4>
+
+<img src='./resource/repository.svg'>
 
 ## ✊ 支持
 
