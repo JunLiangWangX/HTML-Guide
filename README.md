@@ -74,9 +74,9 @@
 - commit 信息请描写准确
 - 确保 PR 是提交到 `dev` 分支，而不是 `master` 分支
 
-<h4>海内存知己，天涯若比邻。感谢大家的贡献</h4>
+<h4>海内存知己，天涯若比邻。感谢大家的贡献!!!</h4>
 
-<img src='./resource/repository.svg'>
+<img src='./resource/repository.svg' width='100%'>
 
 ## ✊ 支持
 

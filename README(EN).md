@@ -40,7 +40,7 @@
   <ul>
     <li><a href="#-background">👀 Background</a></li>
     <li><a href="#-usage">🤳 Usage</a></li>
-    <li><a href="#-project-struct">🧩 Project Struct</a></li>
+    <li><a href="#-project-structure">🧩 Project Structure</a></li>
     <li><a href="#-issues-and-comment">📫 Issue And Comment</a></li>
     <li><a href="#-contributing">👨‍💻 Contributing</a></li>
     <li><a href="#-support">✊ Support</a></li>
@@ -54,7 +54,7 @@
 
 ## 🤳 Usage
 
-## 🧩 Project Struct
+## 🧩 Project Structure
 
 ## 📫 Issues And Comment
 
@@ -70,9 +70,9 @@ If you find a project bug or are interested in contributing to the project ingre
 - Please describe the commit information accurately
 - PRs are committed to the `dev` branch, not the `master` branch
 
-<h3>The sea has confidants in memory, and the ends of the earth are like neighbors. Thanks for everyone's contributions</h3>
+<h3>The sea has confidants in memory, and the ends of the earth are like neighbors. Thanks for everyone's contributions!!!</h3>
 
-<img src='./resource/repository.svg'>
+<img src='./resource/repository.svg' width='100%'>
 
 
 
