@@ -38,13 +38,13 @@
 <details>
   <summary>Table of Contents</summary>
   <ul>
-    <li><a href="#-Background">👀 Background</a></li>
-    <li><a href="#-Usage">🤳 Usage</a></li>
-    <li><a href="#- Project Struct">🧩 Project Struct</a></li>
-    <li><a href="#-Issue And Comment">📫 Issue And Comment</a></li>
-    <li><a href="#-Contributing">👨‍💻 Contributing</a></li>
-    <li><a href="#-Support">✊ Support</a></li>
-    <li><a href="#-License">🔑 License</a></li>
+    <li><a href="#-background">👀 Background</a></li>
+    <li><a href="#-usage">🤳 Usage</a></li>
+    <li><a href="#-project-struct">🧩 Project Struct</a></li>
+    <li><a href="#-issues-and-comment">📫 Issue And Comment</a></li>
+    <li><a href="#-contributing">👨‍💻 Contributing</a></li>
+    <li><a href="#-support">✊ Support</a></li>
+    <li><a href="#-license">🔑 License</a></li>
   </ul>
 </details>
 
