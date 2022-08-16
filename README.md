@@ -74,11 +74,13 @@
     <p align='center'>桃花潭水深千尺，不及汪伦送我情。</p>
 </p>
 
-如若您觉得项目不错可以给项目一个[start](https://github.com/JunLiangWangX/HTML-Guide/)✨，并在[评论](https://github.com/JunLiangWangX/HTML-Guide/issues/3)中发表您的想法✍。当然您如果比较宽裕的话，可以请作者喝一杯咖啡🍵
+<p align='center'>
+   如若您觉得项目不错可以给项目一个<a href='https://github.com/JunLiangWangX/HTML-Guide/'>start</a>✨,并在<a href='https://github.com/JunLiangWangX/HTML-Guide/issues/3'>评论</a>中发表您的想法✍。当然您如果比较宽裕的话，可以请作者喝一杯咖啡🍵
+</p>
 
-|                     支付宝                      |                        微信                        |
-| :---------------------------------------------: | :------------------------------------------------: |
-| <img src='./resource/alipay.svg' width='200px'> | <img src='./resource/wechatpay.svg' width='200px'> |
+|                    支付宝                     |                       微信                       |
+| :-------------------------------------------: | :----------------------------------------------: |
+| <img src='./resource/alipay.svg' width='50%'> | <img src='./resource/wechatpay.svg' width='50%'> |
 
 
 
