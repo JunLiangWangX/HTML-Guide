@@ -27,8 +27,6 @@
     <img src="https://badgen.net/github/closed-prs/JunLiangWangX/HTML-Guide">
   </a>
 </p>
-
-
 <p align="center">
     <a href="https://wangjunliang.com/HTML-Guide/"><img src='./resource/domestic-site-btn.svg'></a>
     <a href="https://junliangwangx.github.io/HTML-Guide/"><img src='./resource/foreign-sites-btn.svg'></a>
@@ -51,14 +49,31 @@
     <li><a href="#-license">🔑 License</a></li>
   </ul>
 </details>
-
-
+​	
 
 ## 👀 项目背景
 
+万丈高楼平地起，盘龙卧虎高山齐。前端技术日新月异，开发框架更是如雨后春笋般大量涌现。但无论技术如何发展，框架如何更新，万变不离其中，终究不过是HTML、JS、CSS的封装与变换。
+
+<h5>我认为能否学好Web开发的关键在于是否学好与学懂HTML、JS、CSS三大基础语言。</h5>
+
+本项目则是介绍三大基础语言之一HTML的网站（待本项目更新完成则会相继出CSS与JS的指南），目前市面上各类学习HTML网站如此之多，为什么还选择自己造轮子呢？原因在于我学习HTML时发现各类网站存在如下问题：
+
+- 知识点较为分散，想要全面且统一的了解与学习HTML需要看很多不同的网站
+- 各种网站的操作又较为复杂，各种跳转与广告让人思绪混乱
+- 知识点介绍生硬，让人难以理解
+
+<h5>因此我就萌生了要自己做一个介绍HTML的网站，它能全面且统一、生动且形象的介绍HTML，它不会广告满天飞，布局结构干净整洁，能够快速且准确给您想要的答案！于是乎该项目——《HTML指南》便诞生了！</h5>
+
+
+
 ## 🤳 使用
 
+
+
 ## 🧩 项目结构
+
+
 
 
 
