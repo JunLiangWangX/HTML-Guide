@@ -73,9 +73,9 @@
 
 If you think the project is good, you can give the project a [start](https://github.com/JunLiangWangX/HTML-Guide/)✨, and post your thoughts in[comment](https://github.com/JunLiangWangX/HTML-Guide/issues/3)✍. Of course, if you are well-off, you can invite the author to drink a cup of coffee🍵
 
-|                     支付宝                      |                      微信                       |
-| :---------------------------------------------: | :---------------------------------------------: |
-| <img src='./resource/alipay.jpg' width='200px'> | <img src='./resource/wechat.jpg' width='200px'> |
+|                       支付宝                        |                          微信                          |
+| :-------------------------------------------------: | :----------------------------------------------------: |
+| <img src='./resource/alipay(EN).svg' width='200px'> | <img src='./resource/wechatpay(EN).svg' width='200px'> |
 
 
 
