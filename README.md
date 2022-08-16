@@ -70,15 +70,25 @@
 
 如果您在使用中遇到问题，请您先搜索[Issue](https://github.com/JunLiangWangX/HTML-Guide/issues)中是否有您的问题的答案，如果未能找到答案，请您在[Issue](https://github.com/JunLiangWangX/HTML-Guide/issues)中提交您遇到的问题，我们会及时处理。
 
-#### 怎么发表您的看法？
+#### 怎么发表您的看法与建议？
 
 如果您想发表自己的看法与建议，您可以前往[discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions)或者[Issue中的评论](https://github.com/JunLiangWangX/HTML-Guide/issues/3)中发表，当然您也可以直接前往[站点的评论区](https://junliangwangx.github.io/HTML-Guide/comment.html)([国内](https://wangjunliang.com/HTML-Guide/comment.html))发表
 
 
 
+#### What should I do if I encounter a problem?
+
+If you encounter problems during use, please search [Issue](https://github.com/JunLiangWangX/HTML-Guide/issues) to see if there is an answer to your question. If you cannot find an answer, please Submit your issues in [Issue](https://github.com/JunLiangWangX/HTML-Guide/issues) and we will deal with them in time.
+
+#### How to express your views and suggestions?
+
+If you want to post your own opinions and suggestions, you can go to [discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions) or [Comments in Issue](https://github.com/JunLiangWangX /HTML-Guide/issues/3), of course you can also go directly to the [comment of the site](https://junliangwangx.github.io/HTML-Guide/comment.html)([domestic](https: //wangjunliang.com/HTML-Guide/comment.html)) published
+
+
+
 ## 👨‍💻 贡献
 
-如果您发现了项目bug或者有兴趣为该项目做出贡献，请您遵循一下规则：
+如果您发现了项目bug或者有兴趣为该项目做出贡献，请您遵循以下规则：
 
 - 仔细阅读[🧩项目结构](#-项目结构)，确保您已足够了解项目
 - 如果是项目bug请提交一个[Issue](https://github.com/JunLiangWangX/HTML-Guide/issues)，在提交 issue 之前，请搜索相关内容是否已被提出
