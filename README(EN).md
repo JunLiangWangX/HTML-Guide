@@ -33,6 +33,8 @@
 </p>
 <p align='center'><a href='./README.md'>中文</a> &nbsp&nbsp&nbsp <a href='./README(EN).md'>English</a></p>
 
+  
+
 <p align='center'><img  src='https://pagespeed-insights.herokuapp.com?url=https://junliangwangx.github.io/HTML-Guide/' width='70%'/></p>	
 
 <details>
@@ -47,7 +49,7 @@
     <li><a href="#-license">🔑 License</a></li>
   </ul>
 </details>
-
+   
 
 ## 👀 Background
 
@@ -63,15 +65,45 @@ This project is a website that introduces HTML, one of the three basic languages
 
 <h5>Therefore, I came up with the idea of making a website that introduces HTML by myself. It can introduce HTML comprehensively, uniformly, vividly and vividly. It will not be full of advertisements, and the layout structure is clean and tidy, and it can give you the answers you want quickly and accurately! And so the project - 《The HTML Guide》 was born!</h5>
 
-
-
-
+   
 
 ## 🤳 Usage
 
+<p align='center'>In order to bring you a different feeling, we have used some technical means and satisfied all the characteristics of PWA, which will bring you an unexpected experience! ! !
+</p>
+
+<h3 align='center'>😀🤩😍🥳</h3>
+
+​        
+
+<h3 align='center'>⚙️ Installable ⚙️</h3>
+
+<h5 align='center'>PC can install web pages to the desktop through the install icon in the upper right corner of the browser's navigation bar, and mobile devices can add web pages to the home screen through the browser, so you can get an app-level experience</h5>
+
+<img src="E:/备份文件/WJL/web/HTML-Guide/resource/pc-install.gif" width='70%'><img src="E:/备份文件/WJL/web/HTML-Guide/resource/mobile-install.gif" width='30%' align='right'>
 
 
 
+​        
+
+<h3 align='center'>❌ Offline Access ❌</h3>
+
+<h5 align='center'>When you add a web page to your desktop, you get an app-level experience, including the ability to access web pages and read documents even without a network
+</h5>
+
+<img src="E:/备份文件/WJL/web/HTML-Guide/resource/pc-offline.gif" width='70%'><img src="E:/备份文件/WJL/web/HTML-Guide/resource/mobile-offline.gif" width='30%' align='right'>
+
+
+
+​       
+
+<h3 align='center'>📍 Record Reading Position 📍</h3>
+
+<h5 align='center'>When you exit the web page and enter again, click 'Return to previous position' to return to the last reading position</h5>
+
+<img src="E:/备份文件/WJL/web/HTML-Guide/resource/pc-back-to.gif" width='70%'><img src="E:/备份文件/WJL/web/HTML-Guide/resource/mobile-back-to.gif" width='30%' align='right'>
+
+​       
 
 ## 🧩 Project Structure
 
@@ -101,43 +133,38 @@ This project is a website that introduces HTML, one of the three basic languages
 └── package.json                       # npm configuration file
 ```
 
+   
 
-
-
-
-## 📫 Issues And Comment
+##  Issues And Comment
 
 <img src='./resource/reactions.svg' width='100%'>
 
 #### What should I do if I encounter a problem?
 
-If you encounter problems during use, please search [Issue](https://github.com/JunLiangWangX/HTML-Guide/issues) to see if there is an answer to your question. If you cannot find an answer, please Submit your issues in [Issue](https://github.com/JunLiangWangX/HTML-Guide/issues) and we will deal with them in time.
+If you encounter problems during use, please search [issue](https://github.com/JunLiangWangX/HTML-Guide/issues) to see if there is an answer to your question. If you cannot find an answer, please Submit your issues in [issue](https://github.com/JunLiangWangX/HTML-Guide/issues) and we will deal with them in time.
 
 #### How to express your views and suggestions?
 
-If you want to post your own opinions and suggestions, you can go to [discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions) or [Comments in Issue](https://github.com/JunLiangWangX /HTML-Guide/issues/3), of course you can also go directly to the [comment of the site](https://junliangwangx.github.io/HTML-Guide/comment.html)([domestic](https: //wangjunliang.com/HTML-Guide/comment.html)) published
+If you want to post your own opinions and suggestions, you can go to [discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions) or [comments in issue](https://github.com/JunLiangWangX /HTML-Guide/issues/3) , of course you can also go directly to the [comment in site](https://junliangwangx.github.io/HTML-Guide/comment.html) ([domestic](https: //wangjunliang.com/HTML-Guide/comment.html)) published
 
-
-
-
+   
 
 ## 👨‍💻 Contributing
 
 If you find a project bug or are interested in contributing to the project ingredients, please follow these rules:
 
-- Read [🧩Project Structure](#-project-structure) carefully to make sure you know enough about the project
-- If it is a project bug, please submit an [Issue](https://github.com/JunLiangWangX/HTML-Guide/issues), before submitting an issue, please search whether the relevant content has been raised
-- Please fork  to your own project first, do not create a branch directly under the warehouse.
+- This project is constructed by [vuepress](https://vuepress.vuejs.org/) and requires your ability to develop based on [vuepress](https://vuepress.vuejs.org/)
+- Read [🧩 Project Structure](#-Project Structure) and related project code carefully to make sure you know enough about the project
+- If it is a project bug, please submit an [issue](https://github.com/JunLiangWangX/HTML-Guide/issues), before submitting an issue, please search whether the relevant content has been raised
+- Please fork  to your own project first, do not create a branch directly under the repository.
 - Please describe the commit information accurately
-- PRs are committed to the `dev` branch, not the `master` branch
+- PRs are committed to the `dev` branch, not the `main` branch
 
 <h3>The sea has confidants in memory, and the ends of the earth are like neighbors. Thanks for everyone's contributions!!!</h3>
 
 <img src='./resource/repository.svg'>
 
-
-
-
+   
 
 ## ✊ Support
 
@@ -158,9 +185,7 @@ If you find a project bug or are interested in contributing to the project ingre
 | :-----------------------------------------------: | :--------------------------------------------------: |
 | <img src='./resource/alipay(EN).svg' width='50%'> | <img src='./resource/wechatpay(EN).svg' width='50%'> |
 
-
-
-
+   
 
 ## 🔑 License
 
