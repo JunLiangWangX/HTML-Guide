@@ -49,8 +49,21 @@
 </details>
 
 
-
 ## 👀 Background
+
+Front-end technologies are changing with each passing day, and development frameworks have sprung up like mushrooms after a rain. But no matter how the technology develops or how the framework is updated, all changes are inseparable, after all, it is nothing but the encapsulation and transformation of HTML, JS, and CSS.
+
+<h5>I think the key to learning web development well is whether you can learn well and understand the three basic languages ​​​​of HTML, JS, and CSS.。</h5>
+
+This project is a website that introduces HTML, one of the three basic languages (the CSS and JS guides will be published after the project is updated). There are so many HTML learning websites on the market, why do you choose to build your own wheels? The reason is that when I was learning HTML, I found that various websites have the following problems:
+
+- The knowledge points are scattered. If you want to understand and learn HTML comprehensively and uniformly, you need to see many different websites.
+- The operation of various websites is more complicated, and various jumps and advertisements make people confused
+- The introduction of knowledge points is blunt and difficult to understand
+
+<h5>Therefore, I came up with the idea of making a website that introduces HTML by myself. It can introduce HTML comprehensively, uniformly, vividly and vividly. It will not be full of advertisements, and the layout structure is clean and tidy, and it can give you the answers you want quickly and accurately! And so the project - 《The HTML Guide》 was born!</h5>
+
+
 
 ## 🤳 Usage
 
