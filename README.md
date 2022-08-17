@@ -67,7 +67,11 @@
 
 
 
+
+
 ## 🤳 使用
+
+
 
 
 
@@ -101,6 +105,8 @@
 
 
 
+
+
 ## 📫 问题与评论
 
 <img src='./resource/reactions.svg' width='100%'>
@@ -112,6 +118,8 @@
 #### 怎么发表您的看法与建议？
 
 如果您想发表自己的看法与建议，您可以前往[discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions)或者[Issue中的评论](https://github.com/JunLiangWangX/HTML-Guide/issues/3)中发表，当然您也可以直接前往[站点的评论区](https://junliangwangx.github.io/HTML-Guide/comment.html)([国内](https://wangjunliang.com/HTML-Guide/comment.html))发表
+
+
 
 
 
@@ -129,6 +137,8 @@
 <h4>海内存知己，天涯若比邻。感谢大家的贡献!!!</h4>
 
 <img src='./resource/repository.svg'>
+
+
 
 
 
@@ -150,6 +160,8 @@
 |                    支付宝                     |                       微信                       |
 | :-------------------------------------------: | :----------------------------------------------: |
 | <img src='./resource/alipay.svg' width='50%'> | <img src='./resource/wechatpay.svg' width='50%'> |
+
+
 
 
 

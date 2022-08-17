@@ -65,7 +65,11 @@ This project is a website that introduces HTML, one of the three basic languages
 
 
 
+
+
 ## 🤳 Usage
+
+
 
 
 
@@ -99,6 +103,8 @@ This project is a website that introduces HTML, one of the three basic languages
 
 
 
+
+
 ## 📫 Issues And Comment
 
 <img src='./resource/reactions.svg' width='100%'>
@@ -110,6 +116,8 @@ If you encounter problems during use, please search [Issue](https://github.com/J
 #### How to express your views and suggestions?
 
 If you want to post your own opinions and suggestions, you can go to [discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions) or [Comments in Issue](https://github.com/JunLiangWangX /HTML-Guide/issues/3), of course you can also go directly to the [comment of the site](https://junliangwangx.github.io/HTML-Guide/comment.html)([domestic](https: //wangjunliang.com/HTML-Guide/comment.html)) published
+
+
 
 
 
@@ -126,6 +134,8 @@ If you find a project bug or are interested in contributing to the project ingre
 <h3>The sea has confidants in memory, and the ends of the earth are like neighbors. Thanks for everyone's contributions!!!</h3>
 
 <img src='./resource/repository.svg'>
+
+
 
 
 
@@ -147,6 +157,8 @@ If you find a project bug or are interested in contributing to the project ingre
 |                      Alipay                       |                      WeChat Pay                      |
 | :-----------------------------------------------: | :--------------------------------------------------: |
 | <img src='./resource/alipay(EN).svg' width='50%'> | <img src='./resource/wechatpay(EN).svg' width='50%'> |
+
+
 
 
 
