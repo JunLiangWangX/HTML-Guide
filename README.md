@@ -45,10 +45,11 @@
     <li><a href="#-项目结构">🧩 项目结构</a></li>
     <li><a href="#-问题与评论">📫 问题与评论</a></li>
     <li><a href="#-贡献">👨‍💻 贡献</a></li>
-    <li><a href="#-支持">✊ 支持</a></li>
+    <li><a href="#-支持">💪 支持</a></li>
     <li><a href="#-license">🔑 License</a></li>
   </ul>
 </details>
+
 ​	
 
 ## 👀 项目背景
@@ -71,7 +72,21 @@
 
 ## 🤳 使用
 
+> 该网站满足PWA规范，它具有以下特征（[点击访问](https://junliangwangx.github.io/HTML-Guide/)）：
 
+<h3 align='center'>⚙️ 可安装</h3>
+
+<h5 align='center'>PC可通过浏览器导航栏右上角安装图标将网页安装到桌面，移动设备可通过浏览器将网页添加到主屏幕</h5>
+
+<img src='./resource/pc-install.gif' width='70%'><img src='./resource/mobile-install.gif' width='30%' align='right'>
+
+
+
+<h3 align='center'>❌ 可离线访问</h3>
+
+<p align='center'>PC可通过浏览器导航栏右上角安装图标将网页安装到桌面，移动设备可通过浏览器将网页添加到主屏幕</p>
+
+<img src='./resource/pc-offline.gif' width='70%'><img src='./resource/mobile-offline.gif' width='30%' align='right'>
 
 
 
@@ -142,7 +157,7 @@
 
 
 
-## ✊ 支持
+## 💪 支持
 
 <p align='center'>
     <h4 align='center'>赠汪伦</h4>
