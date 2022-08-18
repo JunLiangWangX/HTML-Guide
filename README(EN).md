@@ -139,7 +139,7 @@ This project is a website that introduces HTML, one of the three basic languages
 
    
 
-##  Issues And Comment
+##  Issue And Comment
 
 <img src='./resource/reactions.svg' width='100%'>
 
