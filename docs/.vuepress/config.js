@@ -3,13 +3,26 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-12 11:06:13
+ * @LastEditTime: 2022-08-18 17:43:46
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
+
+    // 国际化配置 https://vuepress.vuejs.org/zh/guide/i18n.html#%E7%AB%99%E7%82%B9%E5%A4%9A%E8%AF%AD%E8%A8%80%E9%85%8D%E7%BD%AE
+    locales: {
+        // 键名是该语言所属的子路径， 作为特例，默认语言可以使用 '/' 作为其路径。
+        '/': {
+            lang: 'zh-CN',
+            title: 'HTML指南',
+            description: '一份全面且准确的HTML指南'
+        },
+        '/en/': {
+            lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
+            title: 'HTML Guide',
+            description: 'A comprehensive and accurate HTML guide'
+        }
+    },
     base: '/HTML-Guide/',
-    title: 'HTML指南',
-    description: '个人总结的一份HTML指南',
     head: [
         ['link', {
             rel: "icon",
@@ -48,38 +61,76 @@ module.exports = {
             name: 'theme-color',
             content: '#fff'
         }],
-        ['meta',{
-            name:'viewport',
-            content:'width=device-width, initial-scale=1'
+        ['meta', {
+            name: 'viewport',
+            content: 'width=device-width, initial-scale=1'
         }]
     ],
     extraWatchFiles: ['**/*.md', '*.md', '**/*.vue', '*.vue'],
     // 永久链接
     // permalink: "/:year/:month/:day/:slug",
+
     // 主题配置 https://www.vuepress.cn/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5
     themeConfig: {
         logo: '/logo.svg',
-        nav: [{
-            text: '📝 评论',
-            link: '/comment'
-        }],
-        sidebar: [
-            '/',
-            '/README1',
-            '/README2'
-        ],
-        search: true,
-        searchMaxSuggestions: 10,
-        lastUpdated: '最后更新', // string | boolean
-        author: '汪军梁',
+        search: false,
+        algolia: {
+            apiKey: '6f2043178d3028c71c86c7035ede49c1',
+            indexName: 'HTML Guide'
+        },
+        locales: {
+            '/': {
+                selectText: '🌍 语言',
+                label: '简体中文',
+                nav: [{
+                    text: '📝 评论',
+                    link: '/comment'
+                }, {
+                    text: '🤳🏻 使用手册',
+                    link: '/usage'
+                }, {
+                    text: '📣 报告问题',
+                    link: 'https://github.com/JunLiangWangX/HTML-Guide/issues'
+                }],
+                // 最后更新文本 string | boolean
+                lastUpdated: '最后更新',
+                // 默认为 "Edit this page"
+                editLinkText: '帮助我们改善此页面！',
+                sidebar: [
+                    '/',
+                    '/README1',
+                    '/README2'
+                ]
+            },
+            '/en/': {
+                selectText: '🌍 Languages',
+                label: 'English',
+                nav: [{
+                    text: '📝 Comment',
+                    link: '/en/comment'
+                }, {
+                    text: '🤳🏻 Usage',
+                    link: '/en/usage'
+                }, {
+                    text: '📣 Report  Problem',
+                    link: 'https://github.com/JunLiangWangX/HTML-Guide/issues'
+                }],
+                // 最后更新文本 string | boolean
+                lastUpdated: 'Latest update',
+                // 默认为 "Edit this page"
+                editLinkText: 'Edit this page on GitHub!',
+                sidebar: [
+                    '/en/',
+                    '/en/README1',
+                    '/en/README2'
+                ]
+            }
+        },
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
         repo: 'https://github.com/JunLiangWangX/HTML-Guide',
         // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
         // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
         repoLabel: 'GitHub',
-
-        // 以下为可选的编辑链接选项
-
         // 假如你的文档仓库和项目本身不在一个仓库：
         // docsRepo: 'vuejs/vuepress',
         // 假如文档不是放在仓库的根目录下：
@@ -88,10 +139,7 @@ module.exports = {
         docsBranch: 'dev',
         // 默认是 false, 设置为 true 来启用
         editLinks: true,
-        // 默认为 "Edit this page"
-        editLinkText: '帮助我们改善此页面！',
-
-
+        // 是否启用滑动动画
         smoothScroll: true
 
     },
@@ -100,8 +148,14 @@ module.exports = {
     plugins: [
         ['last-reading', {
             popupConfig: {
-                message: '返回之前位置',
-                buttonText: '确定'
+                '/': {
+                    message: '继续上次阅读',
+                    buttonText: '前往'
+                },
+                '/en/': {
+                    message: 'Go back to the last reading.',
+                    buttonText: 'Go to'
+                }
             },
         }],
         ['vuepress-plugin-gotop-plus'],
@@ -111,8 +165,14 @@ module.exports = {
         ['@vuepress/pwa', {
             serviceWorker: true,
             updatePopup: {
-                message: "有新内容更新！",
-                buttonText: "刷新"
+                '/': {
+                    message: "发现新内容可用",
+                    buttonText: "刷新"
+                },
+                '/en/': {
+                    message: "New content is available.",
+                    buttonText: "Refresh"
+                }
             }
         }],
         // seo 地址：https://github.com/lorisleiva/vuepress-plugin-seo
@@ -154,17 +214,7 @@ module.exports = {
             owner: 'JunLiangWangX',
             repo: 'HTML-Guide',
             clientId: 'aaa464cfcc37b6c87225',
-            clientSecret: 'b62934f0953c056d0d7e075098b38f1f86c0afe6',
-            locale:"zh"
-        }/*, {
-            // 设置 `platform` 而不是 `api`
-            platform: 'github-v4',
-            // 其他的 Vssue 配置
-            owner: 'JunLiangWangX',
-            repo: 'HTML-Guide',
-            clientId: 'aaa464cfcc37b6c87225',
-            clientSecret: 'b62934f0953c056d0d7e075098b38f1f86c0afe6',
-            locale:"zh"
-        }*/]
+            clientSecret: 'b62934f0953c056d0d7e075098b38f1f86c0afe6'
+        }]
     ]
 }
