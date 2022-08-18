@@ -43,17 +43,18 @@
     <li><a href="#-background">👀 Background</a></li>
     <li><a href="#-usage">🤳 Usage</a></li>
     <li><a href="#-project-structure">🧩 Project Structure</a></li>
-    <li><a href="#-issues-and-comment">📫 Issue And Comment</a></li>
+    <li><a href="#-issue-and-comment">📫 Issue And Comment</a></li>
     <li><a href="#-contributing">👨‍💻 Contributing</a></li>
-    <li><a href="#-support">✊ Support</a></li>
+    <li><a href="#-support">💪 Support</a></li>
     <li><a href="#-license">🔑 License</a></li>
   </ul>
 </details>
+
    
 
 ## 👀 Background
 
-Front-end technologies are changing with each passing day, and development frameworks have sprung up like mushrooms after a rain. But no matter how the technology develops or how the framework is updated, all changes are inseparable, after all, it is nothing but the encapsulation and transformation of HTML, JS, and CSS.
+Front-end technologies are changing with each passing day, and development frameworks have sprung up like mushrooms after a rain. But no matter how the technology develops or how the framework is updated, All changes are nothing more than the encapsulation and transformation of HTML, JS, and CSS
 
 <h5>I think the key to learning web development well is whether you can learn well and understand the three basic languages ​​​​of HTML, JS, and CSS.。</h5>
 
@@ -80,7 +81,9 @@ This project is a website that introduces HTML, one of the three basic languages
 
 <h5 align='center'>PC can install web pages to the desktop through the install icon in the upper right corner of the browser's navigation bar, and mobile devices can add web pages to the home screen through the browser, so you can get an app-level experience</h5>
 
-<img src="E:/备份文件/WJL/web/HTML-Guide/resource/pc-install.gif" width='70%'><img src="E:/备份文件/WJL/web/HTML-Guide/resource/mobile-install.gif" width='30%' align='right'>
+<img src="./resource/pc-install.gif" width='70%'><img src="./resource/mobile-install.gif" width='30%' align='right'>
+
+
 
 
 
@@ -88,10 +91,9 @@ This project is a website that introduces HTML, one of the three basic languages
 
 <h3 align='center'>❌ Offline Access ❌</h3>
 
-<h5 align='center'>When you add a web page to your desktop, you get an app-level experience, including the ability to access web pages and read documents even without a network
-</h5>
+<h5 align='center'>When you add a web page to your desktop, you get an app-level experience, including the ability to access web pages and read documents even without a network</h5>
 
-<img src="E:/备份文件/WJL/web/HTML-Guide/resource/pc-offline.gif" width='70%'><img src="E:/备份文件/WJL/web/HTML-Guide/resource/mobile-offline.gif" width='30%' align='right'>
+<img src="./resource/pc-offline.gif" width='70%'><img src="./resource/mobile-offline.gif" width='30%' align='right'>
 
 
 
@@ -101,7 +103,9 @@ This project is a website that introduces HTML, one of the three basic languages
 
 <h5 align='center'>When you exit the web page and enter again, click 'Return to previous position' to return to the last reading position</h5>
 
-<img src="E:/备份文件/WJL/web/HTML-Guide/resource/pc-back-to.gif" width='70%'><img src="E:/备份文件/WJL/web/HTML-Guide/resource/mobile-back-to.gif" width='30%' align='right'>
+<img src="./resource/pc-back-to.gif" width='70%'><img src="./resource/mobile-back-to.gif" width='30%' align='right'>
+
+
 
 ​       
 
@@ -135,17 +139,22 @@ This project is a website that introduces HTML, one of the three basic languages
 
    
 
-##  Issues And Comment
+##  Issue And Comment
 
 <img src='./resource/reactions.svg' width='100%'>
 
 #### What should I do if I encounter a problem?
 
-If you encounter problems during use, please search [issue](https://github.com/JunLiangWangX/HTML-Guide/issues) to see if there is an answer to your question. If you cannot find an answer, please Submit your issues in [issue](https://github.com/JunLiangWangX/HTML-Guide/issues) and we will deal with them in time.
+If you encounter problems during use, please search [issues](https://github.com/JunLiangWangX/HTML-Guide/issues) to see if there is an answer to your question. If you cannot find an answer, please Submit your issues in [issues](https://github.com/JunLiangWangX/HTML-Guide/issues) and we will deal with them in time.
 
 #### How to express your views and suggestions?
 
-If you want to post your own opinions and suggestions, you can go to [discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions) or [comments in issue](https://github.com/JunLiangWangX /HTML-Guide/issues/3) , of course you can also go directly to the [comment in site](https://junliangwangx.github.io/HTML-Guide/comment.html) ([domestic](https: //wangjunliang.com/HTML-Guide/comment.html)) published
+<p>If you want to post your own opinions and suggestions, you can go to 
+    <a href='https://github.com/JunLiangWangX/HTML-Guide/discussions'>discussions</a> or
+    <a href='https://github.com/JunLiangWangX/HTML-Guide/issues/3'>comments in issues</a> , of course you can also go directly to the
+    <a href='https://junliangwangx.github.io/HTML-Guide/comment.html'>comment in site</a>
+    (<a href='https://wangjunliang.com/HTML-Guide/comment.html'>domestic</a>) published
+</p>
 
    
 
@@ -154,7 +163,7 @@ If you want to post your own opinions and suggestions, you can go to [discussion
 If you find a project bug or are interested in contributing to the project ingredients, please follow these rules:
 
 - This project is constructed by [vuepress](https://vuepress.vuejs.org/) and requires your ability to develop based on [vuepress](https://vuepress.vuejs.org/)
-- Read [🧩 Project Structure](#-Project Structure) and related project code carefully to make sure you know enough about the project
+- Read [🧩 Project Structure](#-project-structure) and related project code carefully to make sure you know enough about the project
 - If it is a project bug, please submit an [issue](https://github.com/JunLiangWangX/HTML-Guide/issues), before submitting an issue, please search whether the relevant content has been raised
 - Please fork  to your own project first, do not create a branch directly under the repository.
 - Please describe the commit information accurately
@@ -166,7 +175,7 @@ If you find a project bug or are interested in contributing to the project ingre
 
    
 
-## ✊ Support
+## 💪 Support
 
 <p align='center'>
     <h4 align='center'>赠汪伦</h4>
