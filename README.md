@@ -29,7 +29,7 @@
 </p>
 <p align="center">
     <a href="https://wangjunliang.com/HTML-Guide/"><img src='./resource/domestic-site-btn.svg'></a>
-    <a href="https://junliangwangx.github.io/HTML-Guide/"><img src='./resource/foreign-sites-btn.svg'></a>
+    <a href="https://junliangwangx.github.io/HTML-Guide/en/"><img src='./resource/foreign-sites-btn.svg'></a>
 </p>
 <p align='center'><a href='./README.md'>中文</a> &nbsp&nbsp&nbsp <a href='./README(EN).md'>English</a></p>
 
@@ -144,7 +144,7 @@
 
 #### 怎么发表您的看法与建议？
 
-如果您想发表自己的看法与建议，您可以前往[discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions)或者[issues中的评论](https://github.com/JunLiangWangX/HTML-Guide/issues/3)中发表，当然您也可以直接前往[站点的评论区](https://junliangwangx.github.io/HTML-Guide/comment.html)([国内](https://wangjunliang.com/HTML-Guide/comment.html))发表
+如果您想发表自己的看法与建议，您可以前往[discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions)或者[issues中的评论](https://github.com/JunLiangWangX/HTML-Guide/issues/3)中发表，当然您也可以直接前往[站点的评论区](https://junliangwangx.github.io/HTML-Guide/en/comment.html)([国内](https://wangjunliang.com/HTML-Guide/comment.html))发表
 
    
 
