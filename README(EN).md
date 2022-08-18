@@ -163,7 +163,7 @@ If you encounter problems during use, please search [issues](https://github.com/
 If you find a project bug or are interested in contributing to the project ingredients, please follow these rules:
 
 - This project is constructed by [vuepress](https://vuepress.vuejs.org/) and requires your ability to develop based on [vuepress](https://vuepress.vuejs.org/)
-- Read [🧩 Project Structure](#-Project Structure) and related project code carefully to make sure you know enough about the project
+- Read [🧩 Project Structure](#-project-structure) and related project code carefully to make sure you know enough about the project
 - If it is a project bug, please submit an [issue](https://github.com/JunLiangWangX/HTML-Guide/issues), before submitting an issue, please search whether the relevant content has been raised
 - Please fork  to your own project first, do not create a branch directly under the repository.
 - Please describe the commit information accurately
