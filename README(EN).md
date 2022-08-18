@@ -91,8 +91,8 @@ This project is a website that introduces HTML, one of the three basic languages
 
 <h3 align='center'>❌ Offline Access ❌</h3>
 
-<h5 align='center'>When you add a web page to your desktop, you get an app-level experience, including the ability to access web pages and read documents even without a network
-</h5>
+<h5 align='center'>When you add a web page to your desktop, you get an app-level experience, including the ability to access web pages and read documents even without a network</h5>
+
 <img src="./resource/pc-offline.gif" width='70%'><img src="./resource/mobile-offline.gif" width='30%' align='right'>
 
 
