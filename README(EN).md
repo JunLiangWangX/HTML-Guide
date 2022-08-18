@@ -153,7 +153,7 @@ If you encounter problems during use, please search [issues](https://github.com/
     <a href='https://github.com/JunLiangWangX/HTML-Guide/discussions'>discussions</a> or
     <a href='https://github.com/JunLiangWangX/HTML-Guide/issues/3'>comments in issues</a> , of course you can also go directly to the
     <a href='https://junliangwangx.github.io/HTML-Guide/comment.html'>comment in site</a>
-    (<a href='https: //wangjunliang.com/HTML-Guide/comment.html'>domestic</a>) published
+    (<a href='https://wangjunliang.com/HTML-Guide/comment.html'>domestic</a>) published
 </p>
 
    
