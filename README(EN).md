@@ -149,15 +149,12 @@ If you encounter problems during use, please search [issues](https://github.com/
 
 #### How to express your views and suggestions?
 
-If you want to post your own opinions and suggestions, you can go to [discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions) or [comments in issues](https://github.com/JunLiangWangX /HTML-Guide/issues/3)
-
- [comments in issues](  ) 
-
-, of course you can also go directly to the [comment in site](https://junliangwangx.github.io/HTML-Guide/comment.html)
-
-（ [domestic](https: //wangjunliang.com/HTML-Guide/comment.html) ）
-
-[comment in site](https://junliangwangx.github.io/HTML-Guide/comment.html) ( [domestic]( https: //wangjunliang.com/HTML-Guide/comment.html ) ) published
+<p>If you want to post your own opinions and suggestions, you can go to 
+    <a href='https://github.com/JunLiangWangX/HTML-Guide/discussions'>discussions</a> or
+    <a href='https://github.com/JunLiangWangX /HTML-Guide/issues/3'>comments in issues</a> , of course you can also go directly to the
+    <a href='https://junliangwangx.github.io/HTML-Guide/comment.html'>comment in site</a>
+    (<a href='https: //wangjunliang.com/HTML-Guide/comment.html'>domestic</a>) published
+</p>
 
    
 
