@@ -140,11 +140,11 @@
 
 #### 遇到问题怎么办？
 
-如果您在使用中遇到问题，请您先搜索[Issue](https://github.com/JunLiangWangX/HTML-Guide/issues)中是否有您的问题的答案，如果未能找到答案，请您在[Issue](https://github.com/JunLiangWangX/HTML-Guide/issues)中提交您遇到的问题，我们会及时处理。
+如果您在使用中遇到问题，请您先搜索[issue](https://github.com/JunLiangWangX/HTML-Guide/issues)中是否有您的问题的答案，如果未能找到答案，请您在[issue](https://github.com/JunLiangWangX/HTML-Guide/issues)中提交您遇到的问题，我们会及时处理。
 
 #### 怎么发表您的看法与建议？
 
-如果您想发表自己的看法与建议，您可以前往[discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions)或者[Issue中的评论](https://github.com/JunLiangWangX/HTML-Guide/issues/3)中发表，当然您也可以直接前往[站点的评论区](https://junliangwangx.github.io/HTML-Guide/comment.html)([国内](https://wangjunliang.com/HTML-Guide/comment.html))发表
+如果您想发表自己的看法与建议，您可以前往[discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions)或者[issue中的评论](https://github.com/JunLiangWangX/HTML-Guide/issues/3)中发表，当然您也可以直接前往[站点的评论区](https://junliangwangx.github.io/HTML-Guide/comment.html)([国内](https://wangjunliang.com/HTML-Guide/comment.html))发表
 
    
 
@@ -154,7 +154,7 @@
 
 - 本项目由[vuepress](https://vuepress.vuejs.org/)构造，需要您具备基于[vuepress](https://vuepress.vuejs.org/)的开发能力
 - 仔细阅读[🧩项目结构](#-项目结构)以及相关的项目代码，确保您已足够了解项目
-- 如果是项目bug请提交一个[Issue](https://github.com/JunLiangWangX/HTML-Guide/issues)，在提交 issue 之前，请搜索相关内容是否已被提出
+- 如果是项目bug请提交一个[issue](https://github.com/JunLiangWangX/HTML-Guide/issues)，在提交 issue 之前，请搜索相关内容是否已被提出
 - 请先 fork 一份到自己的项目下，不要直接在仓库下建分支。
 - commit 信息请描写准确
 - 确保 PR 是提交到 `dev` 分支，而不是 `master` 分支

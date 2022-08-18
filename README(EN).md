@@ -43,12 +43,13 @@
     <li><a href="#-background">👀 Background</a></li>
     <li><a href="#-usage">🤳 Usage</a></li>
     <li><a href="#-project-structure">🧩 Project Structure</a></li>
-    <li><a href="#-issues-and-comment">📫 Issue And Comment</a></li>
+    <li><a href="#-issue-and-comment">📫 Issue And Comment</a></li>
     <li><a href="#-contributing">👨‍💻 Contributing</a></li>
-    <li><a href="#-support">✊ Support</a></li>
+    <li><a href="#-support">💪 Support</a></li>
     <li><a href="#-license">🔑 License</a></li>
   </ul>
 </details>
+
    
 
 ## 👀 Background
@@ -80,7 +81,7 @@ This project is a website that introduces HTML, one of the three basic languages
 
 <h5 align='center'>PC can install web pages to the desktop through the install icon in the upper right corner of the browser's navigation bar, and mobile devices can add web pages to the home screen through the browser, so you can get an app-level experience</h5>
 
-<img src="E:/备份文件/WJL/web/HTML-Guide/resource/pc-install.gif" width='70%'><img src="E:/备份文件/WJL/web/HTML-Guide/resource/mobile-install.gif" width='30%' align='right'>
+<img src="./resource/pc-install.gif" width='70%'><img src="./resource/mobile-install.gif" width='30%' align='right'>
 
 
 
@@ -90,8 +91,7 @@ This project is a website that introduces HTML, one of the three basic languages
 
 <h5 align='center'>When you add a web page to your desktop, you get an app-level experience, including the ability to access web pages and read documents even without a network
 </h5>
-
-<img src="E:/备份文件/WJL/web/HTML-Guide/resource/pc-offline.gif" width='70%'><img src="E:/备份文件/WJL/web/HTML-Guide/resource/mobile-offline.gif" width='30%' align='right'>
+<img src="./resource/pc-offline.gif" width='70%'><img src="./resource/mobile-offline.gif" width='30%' align='right'>
 
 
 
@@ -101,7 +101,7 @@ This project is a website that introduces HTML, one of the three basic languages
 
 <h5 align='center'>When you exit the web page and enter again, click 'Return to previous position' to return to the last reading position</h5>
 
-<img src="E:/备份文件/WJL/web/HTML-Guide/resource/pc-back-to.gif" width='70%'><img src="E:/备份文件/WJL/web/HTML-Guide/resource/mobile-back-to.gif" width='30%' align='right'>
+<img src="./resource/pc-back-to.gif" width='70%'><img src="./resource/mobile-back-to.gif" width='30%' align='right'>
 
 ​       
 
@@ -166,7 +166,7 @@ If you find a project bug or are interested in contributing to the project ingre
 
    
 
-## ✊ Support
+## 💪 Support
 
 <p align='center'>
     <h4 align='center'>赠汪伦</h4>
