@@ -54,7 +54,7 @@
 
 ## 👀 Background
 
-Front-end technologies are changing with each passing day, and development frameworks have sprung up like mushrooms after a rain. But no matter how the technology develops or how the framework is updated, all changes are inseparable, after all, it is nothing but the encapsulation and transformation of HTML, JS, and CSS.
+Front-end technologies are changing with each passing day, and development frameworks have sprung up like mushrooms after a rain. But no matter how the technology develops or how the framework is updated, All changes are nothing more than the encapsulation and transformation of HTML, JS, and CSS
 
 <h5>I think the key to learning web development well is whether you can learn well and understand the three basic languages ​​​​of HTML, JS, and CSS.。</h5>
 
@@ -85,6 +85,8 @@ This project is a website that introduces HTML, one of the three basic languages
 
 
 
+
+
 ​        
 
 <h3 align='center'>❌ Offline Access ❌</h3>
@@ -102,6 +104,8 @@ This project is a website that introduces HTML, one of the three basic languages
 <h5 align='center'>When you exit the web page and enter again, click 'Return to previous position' to return to the last reading position</h5>
 
 <img src="./resource/pc-back-to.gif" width='70%'><img src="./resource/mobile-back-to.gif" width='30%' align='right'>
+
+
 
 ​       
 
