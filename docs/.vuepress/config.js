@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-19 18:08:09
+ * @LastEditTime: 2022-08-19 20:42:27
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -64,6 +64,10 @@ module.exports = {
         ['meta', {
             name: 'viewport',
             content: 'width=device-width, initial-scale=1'
+        }],
+        ['meta', {
+            name: 'google-site-verification',
+            content: 'tQ2ZN1gkwpMXl93ab6xiXnRn-am7D29wRO6DOHUhDXA'
         }]
     ],
     extraWatchFiles: ['**/*.md', '*.md', '**/*.vue', '*.vue'],
