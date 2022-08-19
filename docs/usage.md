@@ -1,8 +1,6 @@
 ---
 prev: false
 next: false
-editLink: false
-lastUpdated: false
 ---
 
 <p align='center'>为给大家带来不一样的感受，我们使用了一些技术手段以及满足了PWA的所有特性，它会给您带来意想不到的体验！！！</p>

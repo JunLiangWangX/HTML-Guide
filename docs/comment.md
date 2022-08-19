@@ -4,4 +4,4 @@ next: false
 editLink: false
 lastUpdated: false
 ---
-<Vssue title="comment" />
+<Vssue title="comment" prefix='' label='comment'/>

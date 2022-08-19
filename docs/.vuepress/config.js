@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-18 23:08:57
+ * @LastEditTime: 2022-08-19 14:11:19
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -73,10 +73,10 @@ module.exports = {
     // 主题配置 https://www.vuepress.cn/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5
     themeConfig: {
         logo: '/logo.svg',
-        algolia: {           
+        algolia: {
             apiKey: '1a860c9e89ee8ceba13280ccec343b8b',
             indexName: 'HTML Guide',
-            appId:'XDPW45V07P'
+            appId: 'XDPW45V07P'
         },
         locales: {
             '/': {
@@ -215,6 +215,12 @@ module.exports = {
             repo: 'HTML-Guide',
             clientId: 'aaa464cfcc37b6c87225',
             clientSecret: 'b62934f0953c056d0d7e075098b38f1f86c0afe6'
-        }]
+        }],
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'G-7F09CR2Q4D'
+            }
+        ]
     ]
 }

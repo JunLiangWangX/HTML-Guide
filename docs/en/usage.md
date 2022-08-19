@@ -1,8 +1,6 @@
 ---
 prev: false
 next: false
-editLink: false
-lastUpdated: false
 ---
 
 <p align='center'>In order to bring you a different feeling, we have used some technical means and satisfied all the characteristics of PWA, which will bring you an unexpected experience! ! !
