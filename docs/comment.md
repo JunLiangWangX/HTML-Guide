@@ -4,4 +4,4 @@ next: false
 editLink: false
 lastUpdated: false
 ---
-<Vssue :title="$title" />
+<Vssue title="comment" />
