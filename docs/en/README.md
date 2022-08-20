@@ -1,35 +1,16 @@
-# HTML Guide
-> 个人总结的一份HTML指南1111
-
-
-
-```js
-console.info('test')
-```
-:tada: :100:
-
-::: tip
-这是一个提示
-:::
-
-::: warning
-这是一个警告
-:::
-
-::: danger
-这是一个危险警告
-:::
-
-::: details
-这是一个详情块，在 IE / Edge 中不生效
-:::
-
-## 测试2
-
-### 测试3
-
-#### 测试4
-
-##### 测试5
-
-###### 测试6
+---
+home: true
+heroImage: /logo.svg
+heroText: HTML Guide
+tagline: A comprehensive and accurate HTML guide
+actionText: Start Learning 🧐
+actionLink: ./what-is-html
+features:
+- title: Comprehensive And Accurate
+  details: Reference and Summary 20+ Introducing HTML Books and Websites, Comprehensive and Accurate Introduction to HTML
+- title: Brevity Comes First
+  details: The layout structure is clean and tidy, there will be no ads flying all over the sky, and all kinds of links are full of sites, which will make you confused and unable to study with peace of mind.
+- title: Vivid
+  details: It's not just copying book knowledge, but explaining knowledge to you with your own understanding.
+footer: MIT Licensed | Copyright © 2022-present JunLiangWang
+---
