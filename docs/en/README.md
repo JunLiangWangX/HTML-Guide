@@ -1,16 +1,16 @@
 ---
 home: true
-heroImage: /hero.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
-actionLink: /zh/guide/
+heroImage: /logo.svg
+heroText: HTML Guide
+tagline: A comprehensive and accurate HTML guide
+actionText: Start Learning 🧐
+actionLink: ./what-is-html
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: Comprehensive And Accurate
+  details: Reference and Summary 20+ Introducing HTML Books and Websites, Comprehensive and Accurate Introduction to HTML
+- title: Brevity Comes First
+  details: The layout structure is clean and tidy, there will be no ads flying all over the sky, and all kinds of links are full of sites, which will make you confused and unable to study with peace of mind.
+- title: Vivid
+  details: It's not just copying book knowledge, but explaining knowledge to you with your own understanding.
+footer: MIT Licensed | Copyright © 2022-present JunLiangWang
 ---
