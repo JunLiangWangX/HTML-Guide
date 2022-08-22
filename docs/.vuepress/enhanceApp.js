@@ -13,10 +13,10 @@ export default ({
       var googleHm = document.createElement("script")
       googleHm.src = "https://www.googletagmanager.com/gtag/js?id=G-7F09CR2Q4D"
       googleHm.async = 1
-      var baiduHm = document.createElement("script")
-      baiduHm.src = "https://hm.baidu.com/hm.js?b835f00f2885ca8db5d5dc41df127508"
+      
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(baiduHm, s);
+      s.parentNode.insertBefore(baiduSubmitHm, s);
       s.parentNode.insertBefore(googleHm, s);
       window.dataLayer = window.dataLayer || [];
 
