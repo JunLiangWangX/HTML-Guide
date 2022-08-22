@@ -10,11 +10,14 @@ export default ({
   router.afterEach((to, from) => {
     // 加入google analytics
     if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined') {
-      var hm = document.createElement("script")
-      hm.src = "https://www.googletagmanager.com/gtag/js?id=G-7F09CR2Q4D"
-      hm.async = 1
+      var googleHm = document.createElement("script")
+      googleHm.src = "https://www.googletagmanager.com/gtag/js?id=G-7F09CR2Q4D"
+      googleHm.async = 1
+      var baiduHm = document.createElement("script")
+      baiduHm.src = "https://hm.baidu.com/hm.js?b835f00f2885ca8db5d5dc41df127508"
       var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
+      s.parentNode.insertBefore(baiduHm, s);
+      s.parentNode.insertBefore(googleHm, s);
       window.dataLayer = window.dataLayer || [];
 
       function gtag() {
