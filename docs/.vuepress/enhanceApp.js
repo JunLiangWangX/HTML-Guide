@@ -15,8 +15,6 @@ export default ({
       googleHm.async = 1
       
       var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(baiduHm, s);
-      s.parentNode.insertBefore(baiduSubmitHm, s);
       s.parentNode.insertBefore(googleHm, s);
       window.dataLayer = window.dataLayer || [];
 
