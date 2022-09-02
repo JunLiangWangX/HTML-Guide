@@ -35,7 +35,7 @@
 
   
 
-<p align='center'><img  src='https://pagespeed-insights.herokuapp.com?url=https://junliangwangx.github.io/HTML-Guide/' width='70%'/></p>	
+<p align='center'><img  src='./resource/proformance.svg' width='70%'/></p>	
 
 <details>
   <summary>Table of Contents</summary>
