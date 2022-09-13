@@ -35,6 +35,7 @@
   "dependencies": {
     "@vssue/api-github-v4": "^1.4.7",
     "@vssue/vuepress-plugin-vssue": "^1.4.8",
+    "vue-codemirror": "^4.0.6",
     "vuepress-plugin-gotop-plus": "^1.0.4",
     "vuepress-plugin-img-lazy": "^1.0.4",
     "vuepress-plugin-last-reading": "^1.0.0"
