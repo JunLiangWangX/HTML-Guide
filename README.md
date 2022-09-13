@@ -109,6 +109,7 @@
 ```
 ├── .github/workflows                     # github action 配置文件存放目录
 |    ├── deploy.yml                       # github pages 自动部署
+|    ├── deploy(domestic).yml             # 国内站点自动部署
 |    └── generate-readme-file.yml         # readme相关资源文件自动生成
 ├── docs                                  # 网站内容存放目录
 |    ├── .vuepress                        # 用于存放vuepress全局的配置、组件、静态资源等
@@ -119,20 +120,26 @@
 |    |    |    └── palette.styl           # 用于重写默认颜色常量
 |    |    ├── config.js                   # 配置文件的入口文件
 |    |    └── enhanceApp.js               # 客户端应用的增强配置
+|    ├── content                          # 用于存放各类md文档(中文)
+|    |    ├── xxxx.md                     # 各类md文档
+|    |    └── .......                     
 |    ├── en                               # 用于存放英文页面
+|    |    ├── content                     # 用于存放各类md文档(英文)
+|    |    |    ├── xxxx.md                # 各类md文档
+|    |    |    └── .......                
+|    |    ├── README.md                   # 站点首页(英文)
 |    |    ├── comment.md                  # 评论页面(英文)
-|    |    ├── usage.md                    # 使用说明页面(英文)
-|    |    └── xxx.md                      # md结尾的都是各类页面(英文)
+|    |    └── usage.md                    # 使用说明页面(英文)
+|    ├── README.md                        # 站点首页(中文)
 |    ├── comment.md                       # 评论页面(中文)
-|    ├── usage.md                         # 使用说明页面(中文)
-|    └── xxx.md                           # md结尾的都是各类页面(中文)
+|    └── usage.md                         # 使用说明页面(中文)
 ├── resource                              # 存放readme中的静态资源
-|    └── ......                   
 ├── .gitignore                            # github忽略文件
 ├── LICENSE                               # license
 ├── README(EN).md                         # readme英文
 ├── README.md                             # readme
 ├── _config.yml                           # github page配置页面
+├── deploy.sh                             # 部署国内站点修改文件脚本
 └── package.json                          # npm配置文件
 ```
 
