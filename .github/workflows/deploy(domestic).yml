@@ -1,0 +1,20 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+      
+    - name: Fetch resources
+      run: ./deploy.sh
+
+    - name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.SECRET }}
+        TARGET_REPO: JunLiangWangX/HTML-Guide
+        TARGET_BRANCH: deploy(domestic)
+        BUILD_SCRIPT: npm install && npm run build
+        BUILD_DIR: docs/.vuepress/dist
