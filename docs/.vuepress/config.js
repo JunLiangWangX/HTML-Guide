@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-08-23 00:46:27
+ * @LastEditTime: 2022-09-13 11:03:45
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -101,7 +101,8 @@ module.exports = {
                 // 默认为 "Edit this page"
                 editLinkText: '帮助我们改善此页面！',
                 sidebar: [
-                    '/content/what-is-html'
+                    '/content/what-is-html',
+                    '/content/html-document-structure'
                 ]
             },
             '/en/': {
@@ -122,7 +123,8 @@ module.exports = {
                 // 默认为 "Edit this page"
                 editLinkText: 'Edit this page on GitHub!',
                 sidebar: [
-                    '/en/content/what-is-html'
+                    '/en/content/what-is-html',
+                    '/en/content/html-document-structure'
                 ]
             }
         },
