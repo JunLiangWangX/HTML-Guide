@@ -113,27 +113,38 @@ This project is a website that introduces HTML, one of the three basic languages
 
 ```
 ├── .github/workflows                  # github action Configuration file storage directory
-    ├── deploy.yml                     # github pages Automatic deployment
-    └── generate-readme-file.yml       # readme relevant resource files are automatically generated
+|    ├── deploy.yml                    # github pages Automatic deployment
+|    ├── deploy(domestic).yml          # automatic deployment of domestic sites
+|    └── generate-readme-file.yml      # readme relevant resource files are automatically generated
 ├── docs                               # website content storage directory
-    ├── .vuepress                      # used to store vuepress global configuration, components, static                                              resources, etc.
-        ├── public                     # static resource storage directory
-            ├── manifest.json          # PWA manifest configuration file
-            └── ......                 # png/svg...resource files
-        ├── styles                     # style file storage directory
-            └── palette.styl           # used to override default color constants
-        ├── config.js                  # entry file for configuration file
-        └── enhanceApp.js              # enhanced configuration for client applications
-    ├── comment.md                     # comment page
-    ├── xxx.md                         # md ends with all kinds of pages
-    └── ......
+|    ├── .vuepress                     # used to store vuepress global configuration, components, static     |    |    |                              resources, etc.
+|    |    ├── public                   # static resource storage directory
+|    |    |    ├── manifest.json       # PWA manifest configuration file
+|    |    |    └── ......              # png/svg...resource files
+|    |    ├── styles                   # style file storage directory
+|    |    |    └── palette.styl        # used to override default color constants
+|    |    ├── config.js                # entry file for configuration file
+|    |    └── enhanceApp.js            # enhanced configuration for client applications
+|    ├── content                       # store various md documents (Chinese)
+|    |    ├── xxxx.md                  # various md documents
+|    |    └── .......                     
+|    ├── en                            # store English pages
+|    |    ├── content                  # store various md documents (English)
+|    |    |    ├── xxxx.md             # various md documents
+|    |    |    └── .......                
+|    |    ├── README.md                # site Home (English)
+|    |    ├── comment.md               # comments page (English)
+|    |    └── usage.md                 # instructions page (English)
+|    ├── README.md                     # site home (Chinese)
+|    ├── comment.md                    # comments page (Chinese)
+|    └── usage.md                      # instructions page (Chinese)
 ├── resource                           # store static resources in readme
-    └── ......                   
 ├── .gitignore                         # github ignore files
 ├── LICENSE                            # license
 ├── README(EN).md                      # readme
 ├── README.md                          # readme
 ├── _config.yml                        # github page configuration file
+├── deploy.sh                          # deploy domestic site modification file script
 └── package.json                       # npm configuration file
 ```
 
