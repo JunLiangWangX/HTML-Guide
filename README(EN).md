@@ -162,10 +162,11 @@ If you encounter problems during use, please search [issues](https://github.com/
 
 <p>If you want to post your own opinions and suggestions, you can go to 
     <a href='https://github.com/JunLiangWangX/HTML-Guide/discussions'>discussions</a> or
-    <a href='https://github.com/JunLiangWangX/HTML-Guide/issues/3'>comments in issues</a> , of course you can also go directly to the
+    <a href='https://github.com/JunLiangWangX/HTML-Guide/issues/6'>comments in issues</a> , of course you can also go directly to the
     <a href='https://junliangwangx.github.io/HTML-Guide/en/comment.html'>comment in site</a>
     (<a href='https://wangjunliang.com/HTML-Guide/comment.html'>domestic</a>) published
 </p>
+
 
 
 
@@ -197,10 +198,10 @@ If you find a project bug or are interested in contributing to the project ingre
 </p>
 
 
-
 <p align='center'>
-    If you think the project is good, you can give the project a <a href='https://github.com/JunLiangWangX/HTML-Guide/'>start</a>✨, and post your thoughts in <a href='https://github.com/JunLiangWangX/HTML-Guide/issues/3'>comment</a>✍. Of course, if you are well-off, you can invite the author to drink a cup of coffee🍵
+    If you think the project is good, you can give the project a <a href='https://github.com/JunLiangWangX/HTML-Guide/'>star</a>✨, and post your thoughts in <a href='https://github.com/JunLiangWangX/HTML-Guide/issues/6'>comment</a>✍. Of course, if you are well-off, you can invite the author to drink a cup of coffee🍵
 </p>
+
 
 |                      Alipay                       |                      WeChat Pay                      |
 | :-----------------------------------------------: | :--------------------------------------------------: |

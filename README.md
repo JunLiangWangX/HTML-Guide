@@ -155,7 +155,7 @@
 
 #### 怎么发表您的看法与建议？
 
-如果您想发表自己的看法与建议，您可以前往[discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions)或者[issues中的评论](https://github.com/JunLiangWangX/HTML-Guide/issues/3)中发表，当然您也可以直接前往[站点的评论区](https://junliangwangx.github.io/HTML-Guide/en/comment.html)([国内](https://wangjunliang.com/HTML-Guide/comment.html))发表
+如果您想发表自己的看法与建议，您可以前往[discussions](https://github.com/JunLiangWangX/HTML-Guide/discussions)或者[issues中的评论](https://github.com/JunLiangWangX/HTML-Guide/issues/6)中发表，当然您也可以直接前往[站点的评论区](https://junliangwangx.github.io/HTML-Guide/en/comment.html)([国内](https://wangjunliang.com/HTML-Guide/comment.html))发表
 
    
 
@@ -186,10 +186,10 @@
 </p>
 
 
-
 <p align='center'>
-   如若您觉得项目不错可以给项目一个<a href='https://github.com/JunLiangWangX/HTML-Guide/'>start</a>✨,并在<a href='https://github.com/JunLiangWangX/HTML-Guide/issues/3'>评论</a>中发表您的想法✍。当然您如果比较宽裕的话，可以请作者喝一杯咖啡🍵
+   如若您觉得项目不错可以给项目一个<a href='https://github.com/JunLiangWangX/HTML-Guide/'>star</a>✨,并在<a href='https://github.com/JunLiangWangX/HTML-Guide/issues/6'>评论</a>中发表您的想法✍。当然您如果比较宽裕的话，可以请作者喝一杯咖啡🍵
 </p>
+
 
 |                    支付宝                     |                       微信                       |
 | :-------------------------------------------: | :----------------------------------------------: |
