@@ -127,11 +127,13 @@
 |    |    ├── content                     # 用于存放各类md文档(英文)
 |    |    |    ├── xxxx.md                # 各类md文档
 |    |    |    └── .......                
-|    |    ├── README.md                   # 站点首页(英文)
 |    |    ├── comment.md                  # 评论页面(英文)
+|    |    ├── README.md                   # 站点首页(英文)
+|    |    ├── support.md                  # 支持页面(英文)
 |    |    └── usage.md                    # 使用说明页面(英文)
-|    ├── README.md                        # 站点首页(中文)
 |    ├── comment.md                       # 评论页面(中文)
+|    ├── README.md                        # 站点首页(中文)
+|    ├── support.md                       # 支持页面(中文)
 |    └── usage.md                         # 使用说明页面(中文)
 ├── resource                              # 存放readme中的静态资源
 ├── .gitignore                            # github忽略文件

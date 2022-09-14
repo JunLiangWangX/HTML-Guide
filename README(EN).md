@@ -132,11 +132,13 @@ This project is a website that introduces HTML, one of the three basic languages
 |    |    ├── content                  # store various md documents (English)
 |    |    |    ├── xxxx.md             # various md documents
 |    |    |    └── .......                
-|    |    ├── README.md                # site Home (English)
 |    |    ├── comment.md               # comments page (English)
+|    |    ├── README.md                # site Home (English)
+|    |    ├── support.md               # support page (English)
 |    |    └── usage.md                 # instructions page (English)
-|    ├── README.md                     # site home (Chinese)
 |    ├── comment.md                    # comments page (Chinese)
+|    ├── README.md                     # site home (Chinese)
+|    ├── support.md                    # support page (Chinese)
 |    └── usage.md                      # instructions page (Chinese)
 ├── resource                           # store static resources in readme
 ├── .gitignore                         # github ignore files

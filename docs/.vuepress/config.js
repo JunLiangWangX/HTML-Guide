@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-09-13 11:03:45
+ * @LastEditTime: 2022-09-14 18:14:46
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -92,6 +92,9 @@ module.exports = {
                 }, {
                     text: '🤳🏻 使用手册',
                     link: '/usage'
+                },{
+                    text: '💪 支持作者',
+                    link: '/support'
                 }, {
                     text: '📣 报告问题',
                     link: 'https://github.com/JunLiangWangX/HTML-Guide/issues'
@@ -114,6 +117,9 @@ module.exports = {
                 }, {
                     text: '🤳🏻 Usage',
                     link: '/en/usage'
+                },{
+                    text: '💪 Support',
+                    link: '/en/support'
                 }, {
                     text: '📣 Report  Problem',
                     link: 'https://github.com/JunLiangWangX/HTML-Guide/issues'
