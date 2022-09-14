@@ -85,3 +85,66 @@
 -  [https://www.w3.org/QA/2002/04/valid-dtd-list.html](https://www.w3.org/QA/2002/04/valid-dtd-list.html)
 
 :::
+
+
+
+## 二、根元素：html
+
+```html
+<html lang="zh-CN"></html>
+```
+
+ `<html>` 元素表示一个 HTML 文档的根（顶级元素），所以它也被称为根元素。所有其他元素必须是此元素的后代。
+
+### 属性
+
+此元素包含 [全局属性](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
+
+### 事件
+
+此元素包含 [全局事件](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
+
+
+
+::: tip 您应当正确提供html元素中的lang属性
+lang虽说是全局属性，然而对于html元素而言，正确提供[lang属性]()以声明网页的语言帮助搜索引擎和浏览器识别网页，有助于屏幕阅读技术确定要陈述的正确语言。没有它，屏幕阅读器通常会默认使用操作系统的设置语言，这可能会导致错误陈述。标识语言标签应描述页面大部分内容使用的语言。
+:::
+
+
+
+::: details 本节参考
+
+-  [https://www.w3schools.com/tags/tag_html.asp](https://www.w3schools.com/tags/tag_html.asp)
+-  [https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/html](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/html)
+
+:::
+
+
+
+## 三、头部元素：head
+
+```html
+<head>
+    <meta charset="utf-8">
+    <title>我的测试页面</title>
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+```
+
+head元素规定文档相关的配置信息包括文档的标题，引用的文档样式和脚本、图标、元数据（描述 HTML 的数据，比如，作者和描述文档的重要关键词）等。在页面加载完成的时候，head标签里的内容是不会在页面中显示出来的。
+
+### 属性
+
+此元素包含 [全局属性](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
+
+### 事件
+
+此元素包含 [全局事件](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
+
+
+
