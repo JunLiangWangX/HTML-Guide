@@ -15,4 +15,4 @@
 
 |                    支付宝                     |                       微信                       |
 | :-------------------------------------------: | :----------------------------------------------: |
-| <img  src='/alipay.svg' width='50%'> | <img src='/wechatpay.svg'  width='50%'> |
+| <img :src="$withBase('/alipay.svg')" width='50%'/> | <img :src="$withBase('/wechatpay.svg')" width='50%'/> |
