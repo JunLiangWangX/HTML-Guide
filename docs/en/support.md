@@ -15,6 +15,6 @@
 
 |                      Alipay                       |                      WeChat Pay                      |
 | :-----------------------------------------------: | :--------------------------------------------------: |
-| <img src='/alipay(EN).svg'  width='50%'> | <img src='/wechatpay(EN).svg'  width='50%'> |
+| <img :src="$withBase('/alipay(EN).svg')" width='50%'/> | <img :src="$withBase('/wechatpay(EN).svg')" width='50%'/> |
 
    
