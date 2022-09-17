@@ -3,32 +3,32 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-21 17:08:04
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-09-15 17:46:48
+ * @LastEditTime: 2022-09-16 14:37:33
 -->
 <template>
   <div class="code-edit-container">
-    <header>
+    <header @click="isShrink = !isShrink">
       <span>🧑‍💻 动手试一试</span>
-      <span
-        :class="'shrink ' + (isShrink ? 'rotate' : '')"
-        @click="isShrink = !isShrink"
-        >🔺</span
-      >
+      <span :class="'shrink ' + (isShrink ? 'rotate' : '')">🔺</span>
     </header>
     <div :class="'code-container ' + (isShrink ? 'hiden' : '')">
-      <codemirror
-        class="content"
-        v-model="cuCode"
-        :options="{
-          // codemirror options
-          tabSize: 4,
-          mode: 'text/html',
-          theme: 'base16-dark',
-          lineWrapping: true,
-          // more codemirror options, 更多 codemirror 的高级配置...
-        }"
-      />
-      <div class="content preview" v-html="cuCode"></div>
+      <div class="container">
+        <codemirror
+          class="content"
+          v-model="cuCode"
+          :options="{
+            tabSize: 4,
+            mode: 'text/html',
+            theme: 'base16-dark',
+            lineWrapping: true,
+          }"
+        />
+        <span class="tip">html</span>
+      </div>
+      <div class="container">
+        <div class="content preview" v-html="cuCode" />
+        <span class="tip tip-preview">预览</span>
+      </div>
     </div>
   </div>
 </template>
@@ -80,6 +80,7 @@ header {
   font-weight: bold;
   border-bottom: 1px solid #4f4f4f;
   user-select: none;
+  cursor: pointer;
 }
 .shrink {
   float: right;
@@ -104,13 +105,38 @@ header {
 }
 .hiden {
   height: 0;
+  padding: 0;
 }
 .content {
   width: 100%;
   height: 100%;
+  overflow: auto;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+.tip{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.tip-preview{
+  color: silver;
 }
 .preview {
   background: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 650px) {
+  .code-container {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: none;
+    grid-column-gap: 0;
+  }
 }
 </style>
 <style>
@@ -126,5 +152,8 @@ header {
   font-weight: 500;
   color: #409eff;
   text-decoration: underline;
+}
+.CodeMirror {
+  height: 100%;
 }
 </style>
