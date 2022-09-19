@@ -3,12 +3,12 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-21 17:08:04
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-09-16 14:37:33
+ * @LastEditTime: 2022-09-19 17:54:28
 -->
 <template>
   <div class="code-edit-container">
     <header @click="isShrink = !isShrink">
-      <span>🧑‍💻 动手试一试</span>
+      <span>🧑‍💻 {{title}}</span>
       <span :class="'shrink ' + (isShrink ? 'rotate' : '')">🔺</span>
     </header>
     <div :class="'code-container ' + (isShrink ? 'hiden' : '')">
@@ -27,7 +27,7 @@
       </div>
       <div class="container">
         <div class="content preview" v-html="cuCode" />
-        <span class="tip tip-preview">预览</span>
+        <span class="tip tip-preview">{{preview}}</span>
       </div>
     </div>
   </div>
@@ -47,6 +47,14 @@ export default {
       type: String,
       default: "",
     },
+    title:{
+      type:String,
+      default:'动手试一试'
+    },
+    preview:{
+      type:'String',
+      default:'预览'
+    }
   },
   data() {
     return {
