@@ -21,7 +21,7 @@
 
 
 
-## 一、文档类型：DOCTYPE
+## 文档类型：DOCTYPE
 
 ```html
 <!DOCTYPE html [publish "DTD公共标识" "DTD"]>
@@ -76,19 +76,7 @@
 :::
 
 
-
-::: details 本节参考
-
--  [https://developer.mozilla.org/zh-CN/docs/Web/HTML/Quirks_Mode_and_Standards_Mode](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Quirks_Mode_and_Standards_Mode)
--  [https://developer.mozilla.org/zh-CN/docs/Glossary/Doctype](https://developer.mozilla.org/zh-CN/docs/Glossary/Doctype)
--  [https://hsivonen.fi/doctype/](https://hsivonen.fi/doctype/)
--  [https://www.w3.org/QA/2002/04/valid-dtd-list.html](https://www.w3.org/QA/2002/04/valid-dtd-list.html)
-
-:::
-
-
-
-## 二、根元素：html
+## 根元素：html
 
 ```html
 <html lang="zh-CN"></html>
@@ -111,17 +99,7 @@ lang虽说是全局属性，然而对于html元素而言，正确提供[lang属�
 :::
 
 
-
-::: details 本节参考
-
--  [https://www.w3schools.com/tags/tag_html.asp](https://www.w3schools.com/tags/tag_html.asp)
--  [https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/html](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/html)
-
-:::
-
-
-
-## 三、头部元素：head
+## 头部元素：head
 
 ```html
 <head>
@@ -148,6 +126,13 @@ head元素规定文档相关的配置信息包括文档的标题，引用的文�
 
 
 
-1.编写什么是HTML
+::: details 本节参考
 
-   HTML组成部分
+-  [https://developer.mozilla.org/zh-CN/docs/Web/HTML/Quirks_Mode_and_Standards_Mode](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Quirks_Mode_and_Standards_Mode)
+-  [https://developer.mozilla.org/zh-CN/docs/Glossary/Doctype](https://developer.mozilla.org/zh-CN/docs/Glossary/Doctype)
+-  [https://hsivonen.fi/doctype/](https://hsivonen.fi/doctype/)
+-  [https://www.w3.org/QA/2002/04/valid-dtd-list.html](https://www.w3.org/QA/2002/04/valid-dtd-list.html)
+-  [https://www.w3schools.com/tags/tag_html.asp](https://www.w3schools.com/tags/tag_html.asp)
+-  [https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/html](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/html)
+
+:::

@@ -79,11 +79,59 @@ Today, when IE has been discontinued by Microsoft, almost all mainstream browser
 
 
 
+## Root Element：html
+
+```html
+<html lang="zh-CN"></html>
+```
+
+The `<html>` element represents the root (top-level element) of an HTML document, so it is also called the root element. All other elements must be descendants of this element.
+
+### Attributes
+
+This element contains [Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+
+### Event
+
+This element contains [Global Event](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+
+
+
+::: tip You should correctly provide the lang attribute in the html element
+Although lang is a global attribute, for html elements, correctly providing [lang attribute]() to declare the language of the web page helps search engines and browsers to identify the web page, and helps screen reading technology to determine the correct language to be stated. Without it, screen readers often default to the operating system's setting language, which can lead to misstatements. The markup language tag should describe the language in which most of the page is written
+:::
+
+
+## Head Element：head
+
+```html
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+</head>
+```
+
+The head element specifies document-related configuration information, including the document's title, referenced document styles and scripts, icons, metadata (data describing HTML, such as author and important keywords describing the document), etc. When the page is loaded, the content in the head tag will not be displayed on the page.
+
+### Attributes
+
+This element contains [Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+
+### Event
+
+This element contains [Global Event](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
+
+
+
+
+
 ::: details Reference in this section
 
 -  [https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode)
 -  [https://developer.mozilla.org/en-US/docs/Glossary/Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
 -  [https://hsivonen.fi/doctype/](https://hsivonen.fi/doctype/)
 -  [https://www.w3.org/QA/2002/04/valid-dtd-list.html](https://www.w3.org/QA/2002/04/valid-dtd-list.html)
+-  [https://www.w3schools.com/tags/tag_html.asp](https://www.w3schools.com/tags/tag_html.asp)
+-  [https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/html](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/html)
 
 :::
