@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-21 17:08:04
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-09-19 17:54:28
+ * @LastEditTime: 2022-09-19 23:41:04
 -->
 <template>
   <div class="code-edit-container">
@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import { codemirror } from "vue-codemirror";
+// import { codemirror } from "vue-codemirror";
 import "codemirror/lib/codemirror.css";
 
 import "codemirror/mode/javascript/javascript.js";
