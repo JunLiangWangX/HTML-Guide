@@ -3,11 +3,11 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-09-14 18:14:46
+ * @LastEditTime: 2022-09-20 00:10:17
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
-
+    dest:'./HTML-Guide',
     // 国际化配置 https://vuepress.vuejs.org/zh/guide/i18n.html#%E7%AB%99%E7%82%B9%E5%A4%9A%E8%AF%AD%E8%A8%80%E9%85%8D%E7%BD%AE
     locales: {
         // 键名是该语言所属的子路径， 作为特例，默认语言可以使用 '/' 作为其路径。

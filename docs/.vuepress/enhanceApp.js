@@ -1,3 +1,4 @@
+
 // 使用异步函数也是可以的
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
@@ -13,7 +14,7 @@ export default ({
       var googleHm = document.createElement("script")
       googleHm.src = "https://www.googletagmanager.com/gtag/js?id=G-7F09CR2Q4D"
       googleHm.async = 1
-      
+
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(googleHm, s);
       window.dataLayer = window.dataLayer || [];

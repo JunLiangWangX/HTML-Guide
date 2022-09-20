@@ -3,17 +3,19 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-21 17:08:04
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-09-19 23:41:04
+ * @LastEditTime: 2022-09-20 11:04:31
 -->
 <template>
   <div class="code-edit-container">
     <header @click="isShrink = !isShrink">
-      <span>🧑‍💻 {{title}}</span>
+      <span>🧑‍💻 {{ title }}</span>
       <span :class="'shrink ' + (isShrink ? 'rotate' : '')">🔺</span>
     </header>
     <div :class="'code-container ' + (isShrink ? 'hiden' : '')">
       <div class="container">
-        <codemirror
+        <component
+          v-if="dynamicComponent"
+          :is="dynamicComponent"
           class="content"
           v-model="cuCode"
           :options="{
@@ -22,23 +24,23 @@
             theme: 'base16-dark',
             lineWrapping: true,
           }"
-        />
+        ></component>
         <span class="tip">html</span>
       </div>
       <div class="container">
         <div class="content preview" v-html="cuCode" />
-        <span class="tip tip-preview">{{preview}}</span>
+        <span class="tip tip-preview">{{ preview }}</span>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-// import { codemirror } from "vue-codemirror";
+//import { codemirror } from "vue-codemirror";
 import "codemirror/lib/codemirror.css";
 
-import "codemirror/mode/javascript/javascript.js";
-import "codemirror/mode/htmlmixed/htmlmixed.js";
+//import "codemirror/mode/javascript/javascript.js";
+//import "codemirror/mode/htmlmixed/htmlmixed.js";
 import "codemirror/theme/base16-dark.css";
 
 export default {
@@ -47,29 +49,31 @@ export default {
       type: String,
       default: "",
     },
-    title:{
-      type:String,
-      default:'动手试一试'
+    title: {
+      type: String,
+      default: "动手试一试",
     },
-    preview:{
-      type:'String',
-      default:'预览'
-    }
+    preview: {
+      type: "String",
+      default: "预览",
+    },
   },
   data() {
     return {
       cuCode: this.code,
       isShrink: false,
+      dynamicComponent:null
     };
   },
-  components: {
+  /*components: {
     codemirror,
-  },
+  },*/
   mounted() {
-    if (process.browser) {
-      const VueCodemirror = require("vue-codemirror");
-      Vue.use(VueCodemirror);
-    }
+    import ("codemirror/mode/javascript/javascript.js")
+    import ("codemirror/mode/htmlmixed/htmlmixed.js")
+    import("vue-codemirror/src/codemirror.vue").then((module) => {
+      this.dynamicComponent = module.default;
+    });
   },
 };
 </script>
@@ -126,18 +130,18 @@ header {
   overflow: auto;
   position: relative;
 }
-.tip{
+.tip {
   position: absolute;
   top: 10px;
   right: 10px;
 }
-.tip-preview{
+.tip-preview {
   color: silver;
 }
 .preview {
   background: white;
-    padding: 10px;
-    box-sizing: border-box;
+  padding: 10px;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 650px) {
   .code-container {
@@ -153,8 +157,6 @@ header {
 }
 .cm-s-base16-dark span.cm-comment {
   color: #368f47 !important;
-}
-.cm-s-base16-dark.CodeMirror {
 }
 .code-container a {
   font-weight: 500;
