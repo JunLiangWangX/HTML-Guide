@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-09-20 15:30:58
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-09-20 18:02:40
+ * @LastEditTime: 2022-09-20 21:58:06
 -->
 <!DOCTYPE html>
 <html lang="{{ lang }}">
@@ -19,8 +19,11 @@
     {{{ renderStyles() }}}
     <style>
       .forward-container {
-        display: none;
+         width: 0;
+         height: 0;
+         overflow: hidden;
       }
+  
   
       .forward-img {
         width: 300px;
@@ -30,7 +33,7 @@
   </head>
   <body>
     <!--vue-ssr-outlet-->
-    <div class="forward-container"><img class="forward-img" src="/HTML-Guide/logox512.png" alt="logo" /></div>
+  <div class="forward-container"><img class="forward-img" src="/HTML-Guide/logox512.png" id="logo" alt="logo" /></div>
     {{{ renderScripts() }}}
   </body>
 </html>
