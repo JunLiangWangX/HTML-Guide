@@ -113,6 +113,8 @@
 |    └── generate-readme-file.yml         # readme相关资源文件自动生成
 ├── docs                                  # 网站内容存放目录
 |    ├── .vuepress                        # 用于存放vuepress全局的配置、组件、静态资源等
+|    |    ├── components                  # 存放Vue组件目录
+|    |    |    └── ......                 # 一些Vue组件
 |    |    ├── public                      # 静态资源存放目录
 |    |    |    ├── manifest.json          # PWA manifest配置文件
 |    |    |    └── ......                 # png/svg...等资源文件
