@@ -122,7 +122,7 @@ You need to ensure that the elements are properly nested. The following is the c
 
 
 
-::: details 本节参考
+::: details details Reference in this section
 
 -  [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 
