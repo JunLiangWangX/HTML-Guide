@@ -1,3 +1,10 @@
+<!--
+ * @Description: 
+ * @Author: JunLiangWang
+ * @Date: 2022-09-20 15:30:58
+ * @LastEditors: JunLiangWang
+ * @LastEditTime: 2022-09-20 18:02:40
+-->
 <!DOCTYPE html>
 <html lang="{{ lang }}">
   <head>
@@ -12,9 +19,7 @@
     {{{ renderStyles() }}}
     <style>
       .forward-container {
-        width: 0;
-        height: 0;
-        overflow: hidden;
+        display: none;
       }
   
       .forward-img {
@@ -25,7 +30,7 @@
   </head>
   <body>
     <!--vue-ssr-outlet-->
-    <div class="forward-container"><img class="forward-img" src="./logox512.png" alt="logo" /></div>
+    <div class="forward-container"><img class="forward-img" src="/HTML-Guide/logox512.png" alt="logo" /></div>
     {{{ renderScripts() }}}
   </body>
 </html>
