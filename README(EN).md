@@ -118,6 +118,8 @@ This project is a website that introduces HTML, one of the three basic languages
 |    └── generate-readme-file.yml      # readme relevant resource files are automatically generated
 ├── docs                               # website content storage directory
 |    ├── .vuepress                     # used to store vuepress global configuration, components, static     |    |    |                              resources, etc.
+|    |    ├── components               # store Vue component directory
+|    |    |    └── ......              # some Vue components
 |    |    ├── public                   # static resource storage directory
 |    |    |    ├── manifest.json       # PWA manifest configuration file
 |    |    |    └── ......              # png/svg...resource files
