@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ title }}</title>
+    <meta name="generator" content="VuePress {{ version }}">
+    {{{ userHeadTags }}}
+    {{{ pageMeta }}}
+    {{{ canonicalLink }}}
+    {{{ renderResourceHints() }}}
+    {{{ renderStyles() }}}
+    <style>
+      .forward-container {
+        width: 0;
+        overflow: hidden;
+      }
+  
+      .forward-img {
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--vue-ssr-outlet-->
+    <div class="forward-container"><img class="forward-img" src="./logox512.png" alt="logo" /></div>
+    {{{ renderScripts() }}}
+  </body>
+</html>
