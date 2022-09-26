@@ -1,6 +1,6 @@
 # What is HTML?
 
-HTML (Hyper Text Markup Language) It consists of a series of `tags (such as<h3>、<ul>、<li>, etc.)`, these tags form various ` Elements (such as <h3>...</h3>、 <li>...</li>, etc. below)`, which define the meaning and structure of the content of the web page to form HTML documents.
+HTML (Hyper Text Markup Language)HTML defines the meaning and structure of web content. It consists of a series of `tags (such as<h3>、<ul>、<li>, etc.)`, these tags form various ` Elements (such as <h3>...</h3>、 <li>...</li>, etc. below)`, which define the meaning and structure of the content of the web page to form HTML documents.
 
 <code-content title='Give it a try' preview='preview' :code="`<h3>What are the works of Wang Xiaobo?</h3>
 
