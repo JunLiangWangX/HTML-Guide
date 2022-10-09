@@ -15,7 +15,7 @@ HTML (Hyper Text Markup Language)HTML defines the meaning and structure of web c
   more
 </a>`"/>
 
-::: warning
+::: warning Notice
 HTML is not a programming language, it is just a markup language used to define content and content structure
 :::
 
@@ -122,7 +122,7 @@ You need to ensure that the elements are properly nested. The following is the c
 
 
 
-::: details details Reference in this section
+::: details Reference in this section
 
 -  [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 

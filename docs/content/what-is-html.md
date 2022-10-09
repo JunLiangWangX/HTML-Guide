@@ -14,7 +14,7 @@ HTML（超文本标记语言——Hyper Text Markup Language）定义了网页�
   了解更多
 </a>`"/>
 
-::: warning 警告
+::: warning 注意
 HTML并非一门编程语言，它仅是用于定义内容与内容结构的标记语言
 :::
 
