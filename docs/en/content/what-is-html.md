@@ -1,6 +1,6 @@
 # What is HTML?
 
-HTML (Hyper Text Markup Language)HTML defines the meaning and structure of web content. It consists of a series of `tags (such as<h3>、<ul>、<li>, etc.)`, these tags form various ` Elements (such as <h3>...</h3>、 <li>...</li>, etc. below)`, which define the meaning and structure of the content of the web page to form HTML documents.
+HTML (Hyper Text Markup Language) is a markup language that defines the structure and content of web pages. It consists of a series of `tags (such as <h3>, <ul>, <li>, etc. below)` which form various `elements (such as << h3>...</h3>, <li>...</li>, etc.)`, these elements define the meaning and structure of the content of the web page to form an HTML document. One of these elements is extremely important - `hypertext (hyperlink)`, which makes HTML documents linked and can jump to each other. It is precisely because of the concept of hypertext (hyperlink) that The world of the World Wide Web is formed today.
 
 <code-content title='Give it a try' preview='preview' :code="`<h3>What are the works of Wang Xiaobo?</h3>
 

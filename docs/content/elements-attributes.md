@@ -1,15 +1,10 @@
-# 元素的三要素
+# 元素的属性
 
-在现实世界中我们通常使用名字、年龄、性别、外貌等内容来描述一个人，同样的在HTML中也有描述元素的内容（例如元素的名称、样式等），我们统称其为`属性`（例如下方指定元素名称的name属性，指定元素样式的style属性）。当然除了描述元素的属性之外，当元素发生一些行为时则会触发一些`事件`（例如下方当元素被点击时则会触发元素的onclick事件，然后弹出提示框）。`DOM`（document object model）：文档对象模型，它将 HTML与脚本或编程语言（通常指js）连接起来，为脚本语言提供了操作HTML文档的方法（DOM原本为JS内容，但DOM与HTML又存在不可分割的关系，每个HTML元素都存在DOM对象，因此我将其放入HTML内容中，方便后续查阅）。
+在现实世界中我们通常使用名字、年龄、性别、外貌等内容来描述一个人，同样的在HTML中也有描述元素的内容（例如元素的名称、样式等），我们统称其为`属性`（例如下方指定元素名称的name属性，指定元素样式的style属性）。
 
+<code-content code="<input type='submit' name='button' style='background:yellow;'  />"/>
 
-<code-content code="<input type='submit' name='button' style='background:yellow;' onclick='alert(`你好！我是一个弹窗`)' />"/>
-
-<br/>
-
-## 属性
-
-元素的属性可以描述元素的样式、名字、类型等内容，它由三个部分组成`属性名`、`等号`以及`属性值`
+一个属性必须包含如下三个部分内容：`属性名称`、`等号`以及`属性值(由一对单/双引号引起来)`
 
 <img :src="$withBase('/attributes.svg')">
 
@@ -49,11 +44,3 @@
 | itemtype        | 指定了词汇的 URL，它将会用于定义数据结构中的 itemprop（条目属性），用于Microdata技术 | url                                                          |
 
 
-
-## 事件
-
-### 全局事件
-
-
-
-## DOM
