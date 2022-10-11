@@ -1,59 +1,58 @@
-# 元素的属性
+# Element Attributes
 
-在现实世界中我们通常使用名字、年龄、性别、外貌等内容来描述一个人，同样的在HTML中也有描述元素的内容（例如元素的名称、样式等），我们统称其为`属性`（例如下方指定元素名称的name属性，指定元素样式的style属性）。当然除了描述元素的属性之外，当元素发生一些行为时则会触发一些`事件`（例如下方当元素被点击时则会触发元素的onclick事件，然后弹出提示框）。`DOM`（document object model）：文档对象模型，它将 HTML与脚本或编程语言（通常指js）连接起来，为脚本语言提供了操作HTML文档的方法（DOM原本为JS内容，但DOM与HTML又存在不可分割的关系，每个HTML元素都存在DOM对象，因此我将其放入HTML内容中，方便后续查阅）。
+In the real world, we usually use content such as name, age, gender, appearance, etc. to describe a person. Similarly, in HTML, there is also content to describe elements (such as element name, style, etc.), which we collectively call `attributes` (such as The name attribute of the element name is specified below, and the style attribute of the element style is specified).
+
+<code-content title='Give it a try' preview='preview' code="<input type='submit' name='button' style='background:yellow;'  />"/>
 
 
-<code-content code="<input type='submit' name='button' style='background:yellow;' onclick='alert(`你好！我是一个弹窗`)' />"/>
 
-<br/>
+## Attributes Composition
 
-## 属性
+A property must contain the following three parts: `attributes name`, `equal sign` and `attributes value (surrounded by a pair of single/double quotes)`
 
-元素的属性可以描述元素的样式、名字、类型等内容，它由三个部分组成`属性名`、`等号`以及`属性值`
+<img :src="$withBase('/attributes(EN).svg')">
 
-<img :src="$withBase('/attributes.svg')">
+::: warning
 
-::: warning 注意
-
-在属性和元素名称之间（如果已经有一个或多个属性，就与前一个属性之间）有一个空格
+There is a space between the attribute and the element name (or the previous attribute if there are already one or more attributes)
 
 :::
 
-### 全局属性
 
-`全局属性是所有 HTML 元素共有的属性，它们可以用于所有元素，即使属性可能对某些元素不起作用`。我们可以在所有的 HTML 元素上指定全局属性，甚至是在标准里没有指定的元素。这意味着任何非标准元素仍必须能够应用这些属性，即使使用这些元素意味着文档不再是 html5 兼容的。
 
-| 属性名          | 作用                                                         | 属性值                                                       |
+## GloBal Attributes
+
+`Global attributes are attributes common to all HTML elements, they can be used on all elements, even though attributes may not work for some elements`. We can specify global attributes on all HTML elements, even those not specified in the standard. This means that any non-standard element must still be able to apply these attributes, even if using these elements means the document is no longer html5 compliant.
+
+| Attributes Name | Effect                                                       | Attributes Value                                             |
 | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| accesskey       | 提供了为当前元素生成键盘快捷键的提示                         | 可打印的字符                                                 |
-| autocapitalize  | 控制用户的文本输入是否和如何自动大写                         | 枚举类型：<br />  `off` or `none`所有字母都默认为小写字母<br />`on` or `sentences`: 每个**句子**的第一个字母默认为大写字母，其他字母都默认为小写字母<br />`words`: 每个**单词**的第一个字母默认为大写字母；所有其他字母都默认为小写字母<br />`characters`: 所有的**字母**都默认为大写 |
-| class           | 一个以空格分隔的元素的类名（classes）列表，它允许 CSS 和 Javascript 通过类选择器  或 DOM 方法来选择和访问特定的元素。 | 字符串                                                       |
-| contenteditable | 表示元素是否可被用户编辑。如果可以，浏览器会修改元素的组件以允许编辑。 | 枚举类型：true、false                                        |
-| data-*          | 被称为自定义数据属性的属性，它赋予我们在所有 HTML 元素上嵌入自定义数据属性的能力，并可以通过脚本在 HTML 与 DOM 表现之间进行专有数据的交换。 | 字符串                                                       |
-| dir             | 指示元素中文本方向                                           | 枚举类型：<br />ltr，指从左到右<br />rtl，指从右到左<br />auto，指由用户代理决定方向。 |
-| draggable       | 元素是否允许使用拖放操作API拖动                              | 枚举类型：true、false                                        |
-| hidden          | 表示元素是否被隐藏                                           | 布尔类型：true、false                                        |
-| id              | 定义了一个全文档唯一的标识符 (ID)。它用于在链接（使用片段）、脚本和样式（通过CSS）中辨识元素。 | 字符串                                                       |
-| is              | 允许您指定标准 HTML 元素像定义的内置元素一样工作             | 字符串                                                       |
-| lang            | 表示元素的语言                                               | BCP47语言定义                                                |
-| part            | 包含一个以元素中 part 属性名称组成的列表，该列表以空格分隔。通过 Part 的名称，可以使用 CSS 伪元素“::part”来选择 shadow 树中指定元素并设置其样式。 | 字符串                                                       |
-| slot            | 将一个 shadow 树中的槽分配给一个元素：带有 `slot` 属性的元素分配给由slot创建的槽，它的 name 属性的值匹配 `slot` 属性的值。 | 字符串                                                       |
-| style           | 包含应用到元素的 CSS 样式声明。                              | 字符串                                                       |
-| tabindex        | 指示其元素是否可以聚焦，以及它是否/在何处参与顺序键盘导航（通常使用Tab键，因此得名）。 | 整数                                                         |
-| title           | 表示咨询信息文本，和它属于的元素相关。这个信息通常存在，但绝不必要，作为提示信息展示给用户。 | 字符串                                                       |
-| translate       | 用来规定对应元素的属性值及其子文本节点内容，是否跟随系统语言作出对应的翻译变化。 | 枚举类型：yes、no                                            |
-| itemid          | 代表元素的唯一的全局标识符，用于Microdata技术                | 字符串                                                       |
-| itemprop        | 被用于向一个物体中添加属性，用于Microdata技术                | 字符串                                                       |
-| itemref         | 提供了元素 id（并不是 itemid）的列表，并具有文档其它地方的额外属性，用于Microdata技术 | 字符串                                                       |
-| itemscope       | 它定义了一个与元数据关联的数据项，用于Microdata技术          | 布尔                                                         |
-| itemtype        | 指定了词汇的 URL，它将会用于定义数据结构中的 itemprop（条目属性），用于Microdata技术 | url                                                          |
+| accesskey       | Provides a hint to generate keyboard shortcuts for the current element | String                                                       |
+| autocapitalize  | Controls whether and how user text input is automatically capitalized | Enumeration type: <br /> `off` or `none` all letters default to lowercase <br />`on` or `sentences`: the first letter of each sentence defaults to uppercase, other letters are Defaults to lowercase<br />`words`: the first letter of each word defaults to uppercase; all other letters default to lowercase<br />`characters`: all letters default to uppercase |
+| class           | A space-separated list of element classes that allow CSS and Javascript to select and access specific elements via class selectors or DOM methods. | String                                                       |
+| contenteditable | Indicates whether the element can be edited by the user. If it can, the browser modifies the element's components to allow editing. | Enumeration type: true, false                                |
+| data-*          | It known as custom data attributes, which give us the ability to embed custom data attributes on all HTML elements, and allow scripting to exchange proprietary data between HTML and DOM representations. | String                                                       |
+| dir             | Indicates the direction of text in an element                | Enumeration type: <br />ltr, refers to left to right<br />rtl, refers to right to left<br />auto, refers to the direction determined by the user agent. |
+| draggable       | Whether to allow dragging elements using the drag and drop API | Enumeration type: true, false                                |
+| hidden          | Indicates whether the element is hidden                      | Boolean                                                      |
+| id              | Defines a document-wide unique identifier (ID). It is used to identify elements in links (using snippets), scripts and styles (via CSS). | String                                                       |
+| is              | Allows you to specify that standard HTML elements behave like defined built-in elements | String                                                       |
+| lang            | language for representing elements                           | BCP47 Define                                                 |
+| part            | Contains a space-separated list of the names of the part attributes in the element. By the name of the part, the CSS pseudo-element "::part" can be used to select and style the specified element in the shadow tree. | String                                                       |
+| slot            | Assign a slot in a shadow tree to an element: The element with the `slot` attribute is assigned to the slot created by the slot whose value of the name attribute matches the value of the `slot` attribute. | String                                                       |
+| style           | Contains CSS style declarations to apply to the element.     | String                                                       |
+| tabindex        | Indicates if its element is focusable, and if/where it participates in sequential keyboard navigation (usually using the Tab key, hence the name). | Integer                                                      |
+| title           | Represents advisory information text, relative to the element to which it belongs. This information is usually present, but never necessary, and is displayed to the user as a prompt. | String                                                       |
+| translate       | It is used to specify whether the attribute value of the corresponding element and the content of its child text nodes should follow the system language to make corresponding translation changes. | Enumeration type: yes, no                                    |
+| itemid          | A unique global identifier representing an element, used in Microdata technology | String                                                       |
+| itemprop        | Used to add properties to an object, used in Microdata technology | String                                                       |
+| itemref         | Provides a list of element ids (not itemids), with additional attributes elsewhere in the document, for use in Microdata technology | String                                                       |
+| itemscope       | It defines a data item associated with metadata for use in Microdata technology | Boolean                                                      |
+| itemtype        | The URL specifying the vocabulary that will be used to define the itemprop (item property) in the data structure for use in Microdata technology | url                                                          |
 
 
 
-## 事件
+::: details Reference in this section
 
-### 全局事件
+-  [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#attributes)
 
-
-
-## DOM
+:::

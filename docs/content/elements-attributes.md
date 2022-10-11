@@ -4,6 +4,10 @@
 
 <code-content code="<input type='submit' name='button' style='background:yellow;'  />"/>
 
+
+
+## 属性的组成
+
 一个属性必须包含如下三个部分内容：`属性名称`、`等号`以及`属性值(由一对单/双引号引起来)`
 
 <img :src="$withBase('/attributes.svg')">
@@ -14,7 +18,9 @@
 
 :::
 
-### 全局属性
+
+
+## 全局属性
 
 `全局属性是所有 HTML 元素共有的属性，它们可以用于所有元素，即使属性可能对某些元素不起作用`。我们可以在所有的 HTML 元素上指定全局属性，甚至是在标准里没有指定的元素。这意味着任何非标准元素仍必须能够应用这些属性，即使使用这些元素意味着文档不再是 html5 兼容的。
 
@@ -44,3 +50,9 @@
 | itemtype        | 指定了词汇的 URL，它将会用于定义数据结构中的 itemprop（条目属性），用于Microdata技术 | url                                                          |
 
 
+
+::: details 本节参考
+
+-  [https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Getting_started#%E5%B1%9E%E6%80%A7](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Getting_started#%E5%B1%9E%E6%80%A7)
+
+:::
