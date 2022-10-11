@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-21 17:08:04
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-09-20 11:04:31
+ * @LastEditTime: 2022-10-08 15:13:48
 -->
 <template>
   <div class="code-edit-container">
@@ -54,7 +54,7 @@ export default {
       default: "动手试一试",
     },
     preview: {
-      type: "String",
+      type: String,
       default: "预览",
     },
   },

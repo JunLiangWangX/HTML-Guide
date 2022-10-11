@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-09-20 17:57:44
+ * @LastEditTime: 2022-10-11 11:25:00
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -88,6 +88,7 @@ module.exports = {
 
     // 主题配置 https://www.vuepress.cn/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5
     themeConfig: {
+        sidebarDepth:2,
         logo: '/logo.svg',
         algolia: {
             apiKey: '1a860c9e89ee8ceba13280ccec343b8b',
@@ -117,7 +118,7 @@ module.exports = {
                 editLinkText: '帮助我们改善此页面！',
                 sidebar: [
                     '/content/what-is-html',
-                    '/content/three-elements-of-the-element',
+                    '/content/elements-attributes',
                     '/content/html-document-structure'
                 ]
             },
@@ -143,7 +144,7 @@ module.exports = {
                 editLinkText: 'Edit this page on GitHub!',
                 sidebar: [
                     '/en/content/what-is-html',
-                    '/en/content/three-elements-of-the-element',
+                    '/en/content/elements-attributes',
                     '/en/content/html-document-structure'
                 ]
             }
