@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-08 15:48:22
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-10-11 11:25:00
+ * @LastEditTime: 2022-10-17 11:38:00
  */
 module.exports = {
     // 基本配置 https://www.vuepress.cn/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
@@ -117,9 +117,17 @@ module.exports = {
                 // 默认为 "Edit this page"
                 editLinkText: '帮助我们改善此页面！',
                 sidebar: [
-                    '/content/what-is-html',
-                    '/content/elements-attributes',
-                    '/content/html-document-structure'
+                    '/content/1.what-is-html',
+                    '/content/2.how-to-parse-html',
+                    '/content/3.html-dom',
+                    '/content/4.elements-attributes-events',
+                    '/content/5.element-global-attributes',
+                    '/content/6.element-global-events',
+                    '/content/7.html-document-structure',
+                    '/content/8.elements-in-head',
+                    '/content/9.elements-in-body',
+                    '/content/10.element-classification',
+                    '/content/11.html-development-history'
                 ]
             },
             '/en/': {
@@ -143,9 +151,17 @@ module.exports = {
                 // 默认为 "Edit this page"
                 editLinkText: 'Edit this page on GitHub!',
                 sidebar: [
-                    '/en/content/what-is-html',
-                    '/en/content/elements-attributes',
-                    '/en/content/html-document-structure'
+                    '/en/content/1.what-is-html',
+                    '/en/content/2.how-to-parse-html',
+                    '/en/content/3.html-dom',
+                    '/en/content/4.elements-attributes-events',
+                    '/en/content/5.element-global-attributes',
+                    '/en/content/6.element-global-events',
+                    '/en/content/7.html-document-structure',
+                    '/en/content/8.elements-in-head',
+                    '/en/content/9.elements-in-body',
+                    '/en/content/10.element-classification',
+                    '/en/content/11.html-development-history'
                 ]
             }
         },
