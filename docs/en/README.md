@@ -4,7 +4,7 @@ heroImage: /logo.svg
 heroText: HTML Guide
 tagline: A comprehensive and accurate HTML guide
 actionText: Start Learning 🧐
-actionLink: /en/content/what-is-html
+actionLink: /en/content/1.what-is-html
 features:
 - title: Comprehensive And Accurate
   details: Reference and Summary 20+ Introducing HTML Books and Websites, Comprehensive and Accurate Introduction to HTML
