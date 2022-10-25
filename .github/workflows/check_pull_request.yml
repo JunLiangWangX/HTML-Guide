@@ -1,6 +1,12 @@
 
 name: check_pull_request
-on: [pull_request]
+on:
+  pull_request:
+    branches:
+    - main
+  push:
+    branches:
+    - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
