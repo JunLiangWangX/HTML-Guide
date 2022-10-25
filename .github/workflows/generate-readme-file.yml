@@ -1,4 +1,4 @@
-name: Generate readme file
+name: Generate Readme File
 on:
   push:
     branches:
