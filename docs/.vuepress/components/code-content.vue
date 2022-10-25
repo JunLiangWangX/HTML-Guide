@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-21 17:08:04
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-10-25 11:08:10
+ * @LastEditTime: 2022-10-25 14:43:16
 -->
 <template>
   <div class="code-edit-container">
@@ -19,7 +19,7 @@
           class="content"
           v-model="cuCode"
           :options="{
-            tabSize: 4,
+            tabSize:  4,
             mode: 'text/html',
             theme: 'base16-dark',
             lineWrapping: true,
