@@ -1,5 +1,5 @@
 name: Generate readme file
-on: [push]
+on: [push,pull_request]
 jobs:
   generate-readme-file:
     runs-on: ubuntu-latest
