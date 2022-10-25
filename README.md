@@ -171,8 +171,8 @@
 - 仔细阅读[🧩项目结构](#-项目结构)以及相关的项目代码，确保您已足够了解项目
 - 如果是项目bug请提交一个[issue](https://github.com/JunLiangWangX/HTML-Guide/issues)，在提交 issue 之前，请搜索相关内容是否已被提出
 - 请先 fork 一份到自己的项目下，不要直接在仓库下建分支。
-- commit 信息请描写准确
-- 确保 PR 是提交到 `dev` 分支，而不是 `main` 分支
+- commit 信息请描写准确，并且必须关联相关的[issue](https://github.com/JunLiangWangX/HTML-Guide/issues)
+- 确保 PR 是提交到 `main` 分支，而不是 `dev`或其他 分支
 
 <h4>海内存知己，天涯若比邻。感谢大家的贡献!!!</h4>
 

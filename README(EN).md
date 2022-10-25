@@ -183,8 +183,8 @@ If you find a project bug or are interested in contributing to the project ingre
 - Read [🧩 Project Structure](#-project-structure) and related project code carefully to make sure you know enough about the project
 - If it is a project bug, please submit an [issue](https://github.com/JunLiangWangX/HTML-Guide/issues), before submitting an issue, please search whether the relevant content has been raised
 - Please fork  to your own project first, do not create a branch directly under the repository.
-- Please describe the commit information accurately
-- PRs are committed to the `dev` branch, not the `main` branch
+- Please describe the commit information accurately and related [issue](https://github.com/JunLiangWangX/HTML-Guide/issues)
+- PRs are committed to the `main` branch, not the `dev` or other branch
 
 <h3>The sea has confidants in memory, and the ends of the earth are like neighbors. Thanks for everyone's contributions!!!</h3>
 
