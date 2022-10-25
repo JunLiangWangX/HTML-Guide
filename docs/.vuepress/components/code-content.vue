@@ -3,7 +3,7 @@
  * @Author: JunLiangWang
  * @Date: 2022-08-21 17:08:04
  * @LastEditors: JunLiangWang
- * @LastEditTime: 2022-10-08 15:13:48
+ * @LastEditTime: 2022-10-25 10:56:33
 -->
 <template>
   <div class="code-edit-container">
@@ -36,12 +36,12 @@
 </template>
 
 <script>
-//import { codemirror } from "vue-codemirror";
 import "codemirror/lib/codemirror.css";
+import "codemirror/theme/base16-dark.css";
 
+import { codemirror } from "vue-codemirror";
 //import "codemirror/mode/javascript/javascript.js";
 //import "codemirror/mode/htmlmixed/htmlmixed.js";
-import "codemirror/theme/base16-dark.css";
 
 export default {
   props: {
@@ -65,9 +65,6 @@ export default {
       dynamicComponent:null
     };
   },
-  /*components: {
-    codemirror,
-  },*/
   mounted() {
     import ("codemirror/mode/javascript/javascript.js")
     import ("codemirror/mode/htmlmixed/htmlmixed.js")
