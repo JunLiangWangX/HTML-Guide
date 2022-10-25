@@ -76,6 +76,8 @@
 :::
 
 
+
+
 ## 根元素：html
 
 ```html
@@ -86,17 +88,13 @@
 
 ### 属性
 
-此元素包含 [全局属性](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
-
-### 事件
-
-此元素包含 [全局事件](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
-
-
+此元素包含 [全局属性](./elements-attributes.html#全局属性)
 
 ::: tip 您应当正确提供html元素中的lang属性
 lang虽说是全局属性，然而对于html元素而言，正确提供[lang属性]()以声明网页的语言帮助搜索引擎和浏览器识别网页，有助于屏幕阅读技术确定要陈述的正确语言。没有它，屏幕阅读器通常会默认使用操作系统的设置语言，这可能会导致错误陈述。标识语言标签应描述页面大部分内容使用的语言。
 :::
+
+
 
 
 ## 头部元素：head
@@ -118,11 +116,21 @@ head元素规定文档相关的配置信息包括文档的标题，引用的文�
 
 ### 属性
 
-此元素包含 [全局属性](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
+此元素包含 [全局属性](./elements-attributes.html#全局属性)
 
-### 事件
 
-此元素包含 [全局事件](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
+
+## 身体元素：body
+
+```html
+
+```
+
+`<body>`元素。包含了你访问页面时所有显示在页面上的内容，文本，图片，音频，游戏等等。
+
+### 属性
+
+此元素包含 [全局属性](./elements-attributes.html#全局属性)
 
 
 

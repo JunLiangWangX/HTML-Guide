@@ -4,7 +4,7 @@ heroImage: /logo.svg
 heroText: HTML指南
 tagline: 一份全面且准确的HTML指南
 actionText: 开始学习 🧐
-actionLink: /content/what-is-html
+actionLink: /content/1.what-is-html
 features:
 - title: 全面准确
   details: 参考与总结20+介绍HTML书籍与网站，全面且准确的介绍HTML
