@@ -151,7 +151,7 @@
 
 ## 📫 问题与评论
 
-<img src='./resource/reactions.svg' width='100%'>
+<img src='./resource/reactions.svg'  width='100%'>
 
 #### 遇到问题怎么办？
 
