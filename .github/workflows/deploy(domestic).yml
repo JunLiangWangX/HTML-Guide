@@ -21,7 +21,7 @@ jobs:
     - run: npm run build --if-present
     
     - name: deploy file to server
-      uses: wlixcc/SFTP-Deploy-Action@v1.0 
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4 
       with:  
           username: 'root'
           server: '${{ secrets.SERVER_IP }}'
