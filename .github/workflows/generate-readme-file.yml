@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: Contributors and sponsors
-       uses: lowlighter/metrics@latest
+       uses: lowlighter/metrics@3.28
        with:
          filename: resource/repository.svg
          token: ${{ secrets.SECRET }}
@@ -19,7 +19,7 @@ jobs:
          plugin_people_types: contributors, stargazers, watchers, sponsors
 
      - name: Detailed report
-       uses: lowlighter/metrics@latest
+       uses: lowlighter/metrics@3.28
        with:
          filename: resource/detailed.svg
          token: ${{ secrets.SECRET }}
@@ -30,7 +30,7 @@ jobs:
          plugin_pagespeed_url: https://junliangwangx.github.io/HTML-Guide/
          
      - name: Comment reactions
-       uses: lowlighter/metrics@latest
+       uses: lowlighter/metrics@3.28
        with:
          filename: resource/reactions.svg
          token: ${{ secrets.SECRET }}
