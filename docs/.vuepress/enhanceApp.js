@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: JunLiangWang
+ * @Date: 2022-10-25 10:40:16
+ * @LastEditors: JunLiangWang
+ * @LastEditTime: 2023-02-23 17:30:31
+ */
 
 // 使用异步函数也是可以的
 export default ({
@@ -12,7 +19,7 @@ export default ({
     // 加入google analytics
     if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined') {
       var googleHm = document.createElement("script")
-      googleHm.src = "https://www.googletagmanager.com/gtag/js?id=G-7F09CR2Q4D"
+      googleHm.src = "https://www.googletagmanager.com/gtag/js?id=G-6LCRG453HW"
       googleHm.async = 1
 
       var s = document.getElementsByTagName("script")[0];
@@ -23,7 +30,7 @@ export default ({
         dataLayer.push(arguments);
       }
       gtag('js', new Date());
-      gtag('config', 'G-7F09CR2Q4D');
+      gtag('config', 'G-6LCRG453HW');
     }
   })
 }
